@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Information</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass.css?v=1.1">
+</head>
+<body >
+    <!-- Nav/Header -->
+    <header>
+ <nav class="navbar fixed-top navbar-expand-lg  "> 
+        <div class="container-fluid ">
+
+          <button class="navbar-toggler  hamburgerMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-secondary hamburgerMenu"></span>
+          </button>
+            <div class=" ">
+              <li class="nav-item dropdown text-center">
+                <a class="nav-link dropdown-toggle active text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <h1 class="">Information</h1>
+                </a>
+
+                <ul class="dropdown-menu bg-info text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
+                  <a href="#"><h4>Spawn Locations</h4></a>
+                  <hr>
+                  <a href="#evChart"><h4>EV Training Chart</h4></a>
+                  <hr>
+                  <a href="#typeChart"><h4>Type Counter Chart</h4></a>
+                  <hr>
+                  <a href="#statusConditions"><h4>Status Conditions</h4></a>
+                  <hr>
+                  <a href="#natureChart"><h4>Nature Chart</h4></a>
+                  <hr>
+                  <a href="#berryChart"><h4>Berry Chart</h4></a>
+                </ul>
+              </li>
+            </div>
+            <hr>
+            
+              <!-- Revo-info -->
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              
+                <ul class="navbar-nav" id="links">
+                    <li class="nav-item marginTop">
+                      <a class="nav-link active text-center" aria-current="page" href='/index.html'>CounterDex</a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
+                      <a class="nav-link  text-center " aria-current="page"  href="/Calculators.html">ValueLator</a>
+                    </li>  
+                    <hr>
+                    <!-- 
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" aria-current="page" href="/RevomonTV.html">RevoTV</a>
+                      </li>
+                      <hr>
+                      -->
+
+                    <!-- Clans/organizations -->
+                    <li class="nav-item dropdown text-center">
+                        <a class="nav-link dropdown-toggle active text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Clans/Groups
+                        </a>
+                        <ul class="dropdown-menu bg-secondary text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
+                        <h2>Clans</h2>
+                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/939520368673165312/939520368673165315">Revo league Discord</a></h5>
+                        <h3>Groups</h3>
+                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/670597253764874270/822022281948823552">Revomon Offical Discord</a></h5>
+                        <h5><a class="dropdown-item" target="_blank" href="https://globalrevomon.com/">Global Revo-Association</a></h5>
+                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/979946785818681355/982743464372482149">House of clans</a></h5>
+                        <h3>Tournaments and Details</h3>
+                        <h5><a class="dropdown-item" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeURNNRXDJPMX6J8hqad71aKgTNyct283C_RYShfEMClimktw/viewform">Monthly Tournaments</a></h5>
+                        </ul>
+                    </li>
+                    
+
+                    
+                    
+                </ul>
+            </div>
+            <img src="/images/Counterdexlogo.edit.png" class="logo">
+        </div>
+      </nav>
+  </header>
+    <!-- Main body. -->
+    
+    <Main class="text-center container-fluid">
+
+      <h1>Sapp's Spawn list chart</h1>
+      <img class="container-fluid typeTable mb-3"  src="/images/SpawnChart.png" style="max-width:900px ;">
+      <p>Current game time is located on your slingshot for Vr players. </p>
+      <p>Mobile players: Game time located on the top right of screen.</p>
+      <p><h3>Morning time</h3>  <strong>(4am to 10am)</strong></p>
+      <p><h3>Afternoon/day time</h3>  <strong>(10am to 20:00)</strong></p>
+      <p><h3>Night time</h3>  <strong>(20:00 to 4am)</strong></p>
+      <hr id="evChart">      
+
+      <!-- Ev training chart -->
+      <h1 class="mt-5">Sapp's EV Training chart</h1>
+      <p>This Chart tells you which revomon to battle and what EVs they will give your revomon. </p>
+      <img class="container-fluid typeTable mb-3"  src="./images/EV_Train_List.png" style="max-width:900px ;">
+      <hr id="typeChart">
+
+      <!-- TypeChart -->
+      <h1 class="mt-5" >Sapps Type Counter Chart</h1> 
+      
+      
+      <img class="container-fluid typeTable mt-4"  src="/images/Typechart.png" style="max-width:700px ;">
+
+      <p><h3>Shield</h3>A Shield means its resistant to its attack type and will cut the damage in half. For example, the first shield beside battle means that bug types are resistant to its attacks.</p>
+      <p><h3>Sword</h3>A Sword means that its effective to its attack and will double the damage done to it. For example, the first sword beside bug means that bug type attacks are effective agenst twilight types.</p>
+      <p><h3>Broken sword</h3>A broken sword means the top type is immune and will not be damaged by the attacks of the type on the left side of the chart.</p>
+      <hr id="statusConditions" class="mb-5">
+
+      <!-- Status Conditions. -->
+      <h1>Status Conditions</h1>
+      <h2 class="mt-5">Poisons</h2>
+      <img src="./images/poison status.png" class="container-fluid typeTable mb-4" style="max-width:600px ;" alt="poisoned revomon">
+      <p>One status condition that is perfect for stalling is poison. There are two types of poison, normal poison and bad poison.</p>
+      <p>Normal poison reduces the victim's HP by 12.5% of its maximum each turn. </p>
+      <p>A meganundra using toxic spikes once will initiate Normal poison, or revomons with the ability poison point who are attacked with a physical move will poison targets.</p>
+      <p><h3></h3>Bad poison gradually increases every turn, meaning that every turn the poison will hurt more and more.</p>
+      <p>The move Toxic or a meganundra using toxic spikes twice will induce <i>Bad poison</i>.</p>
+      <hr>
+
+      <h2 class="mt-5">Burns</h2>
+      <img src="./images/burned status.png" class="container-fluid typeTable mb-4" style="max-width:600px ;" alt="poisoned revomon">
+      <p>The picture above with the craggon on fire is a burn status condition.</p>
+      <p>Burns will decrease the affected Revomons's HP by 12.5% of its maximum at the end of each turn. In Revomon, this is the only effect burns have until specified or changed by the developers.</p>
+      <p>Moves like Wil-o-wisp and scald can induce burns, and abilities like flame body when hit with a physical move will burn the attacker.</p>
+      <hr>
+
+      <h2 class="mt-5">Paralysis </h2>
+      <img src="./images/paralized status.png" class="container-fluid typeTable mb-4" style="max-width:600px ;" alt="poisoned revomon">
+      <p>Paralysis reduces the affected Revomon's Speed to 25%.</p>
+      <p>Every turn it also gives a 25% for the victim to be fully paralyzed and will be unable to attack that turn.</p>
+      <p>As strong as this status condition is, electric and earth type revomons are immune to it.</p>
+      <p>Moves Thunder wave, body slam, thunderbolt, discharge, stun spore, and glare will paralyze targets, more moves that are unlisted can induce paralysis. Abilities like static when hit with a physical move will have a 30% chance to paralize the attacker.</p>
+      <hr>
+
+      <h2 class="mt-5">Sleep </h2>
+      <img src="./images/sleep status.png" class="container-fluid typeTable mb-4" style="max-width:600px ;" alt="poisoned revomon">
+      <p>The creation of the sleep clause rule, a common competitive rule effectively stating that only one Pokemon on each team may be asleep at a time—might suggest that sleep is a very dangerous status effect.</p>
+      <p>When the revomon is put to sleep, a number is put into effect, the number between two and four will be randomly generated and each time the "fast asleep" message is displayed, the counter decreases by one, until the counter reaches zero and the Revomon wakes up.</p>
+      <p>A sleeping Revomon is unable to use any moves, unless they use the moves Sleep Talk or Snore. </p>
+      <p>The move Rest will only and always last two turns of sleep which is self inducing to regain full HP and remove all other status conditions.</p>
+      <p>Abilities like Insomnia and Vital Spirit prevents sleep.</p>
+      <p>Moves like hypnosis, sing, yawn, sleep powder and Grass whistle will put the target to sleep.</p>
+      <hr>
+
+      <h2 class="mt-5">Frozen</h2>
+      <img src="./images/frozen status.png" class="container-fluid typeTable mb-4" style="max-width:600px ;" alt="poisoned revomon">
+      <p>The strongest status condition and the most difficult to inflict. Frozen revomon will not be able to attack until it thaws out. Each turn, it has a 20% chance of thawing out. It can even thaw out on the same turn it was frozen. However, it can also never thaw out unless it hits that 20%- A VERY low percentage, this is why it is so dangerous.</p>
+      <p>Ice types are immune to being frozen, the worst type for defence so it deserves it.</p>
+      <p>The following moves like Blizzard, Ice beam, Ice Fang, and Ice punch can induce freeze all having a (10%) of freezing the target.</p>
+      <hr id="natureChart">
+
+
+
+
+
+<!-- Nature Chart-------------------------------------------- -->
+      <h1 class="mt-5 mb-2" >Nature Chart</h1>
+      <img class="container-fluid typeTable mt-5"   src="/images/NatureChart.png">
+      <hr id="berryChart">
+          <!-- Full berry List----------------------------------------------------------------------------- -->
+          
+          
+      <table class="table-sm mt-5 text-center table-bordered typeTable container-fluid table-striped">
+      <thead>
+
+        <tr>
+          <th scope="col">Full Berry List</th>
+          <th scope="col">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <h1 class="mt-5">Berry List</h1>
+        <tr>
+          <th scope="row">Baraka </th>
+          <td>Halves the damage of super effective toxic type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Chamo</th>
+          <td>Halves the damage of Super effective Spirit type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Choda</th>
+          <td>Halves the damage of Super effective Sky type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Dabip</th>
+          <td>Halves the damage of Super effective Electric type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Frin</th>
+          <td>Halves the damage of Super effective Draco type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Golmon</th>
+          <td>Halves the damage of Super effective Time type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Gunko</th>
+          <td>Halves the damage of Super effective Fire type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Gupon</th>
+          <td>Halves the damage of Super effective Ice type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Pritcha</th>
+          <td>Halves the damage of Super effective Metal type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Psiro</th>
+          <td>Halves the damage of Super effective Battle type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Ruka</th>
+          <td>Halves the damage of Super effective Earth type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Tavaa</th>
+          <td>Halves the damage of Super effective Bug type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Terter</th>
+          <td>Halves the damage of Super effective Forest type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Nonomi</th>
+          <td>Halves the damage of Super effective Stone type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Tipli</th>
+          <td>Halves the damage of Super effective Phantom type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Trars</th>
+          <td>Halves the damage of Super effective Twilight type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">TruDuku</th>
+          <td>Halves the damage of Super effective Water type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Yululu</th>
+          <td>Halves the damage of neutral type attacks.</td>
+        </tr>
+        <tr>
+          <th scope="row">Cassius</th>
+          <td>Recovers 1/4 HP at half HP or lower.</td>
+        </tr>
+        <tr>
+          <th scope="row">Defo</th>
+          <td>Used at half HP, restores 1/8 HP Confuses revo that dislike bitter flavors.</td>
+        </tr>
+        <tr>
+          <th scope="row">Ebla</th>
+          <td>Used at half HP, restores 1/8 HP Confuses revo that dislike sweet flavors.</td>
+        </tr>
+        <tr>
+          <th scope="row">Inchu</th>
+          <td>Used at half HP, restores 1/8 HP Confuses revo that dislike Spicy flavors.</td>
+        </tr>
+        <tr>
+          <th scope="row">Osef</th>
+          <td>Used at half HP, restores 1/8 HP Confuses revo that dislike Sour flavors.</td>
+        </tr>
+        <tr>
+          <th scope="row">Tibli</th>
+          <td>Used at half HP, restores 1/8 HP Confuses revo that dislike dry flavors.</td>
+        </tr>
+        <tr>
+          <th scope="row">Glandu</th>
+          <td>Used at 1/4 HP, boost Def by 1 stage.</td>
+        </tr>
+        <tr>
+          <th scope="row">Lota</th>
+          <td>Used at 1/4 HP, boost Attack by 1 stage.</td>
+        </tr>
+        <tr>
+          <th scope="row">liech</th>
+          <td>Used at 1/4 HP, increases sp.atk by 1 stage.</td>
+        </tr>
+        <tr>
+          <th scope="row">Toktok</th>
+          <td>Used at 1/4 HP, Raises Sp.Def by 1 stage.</td>
+        </tr>
+        <tr>
+          <th scope="row">Trigo</th>
+          <td>Used at 1/4 HP, raises speed by 1 stage.</td>
+        </tr>
+        <tr>
+          <th scope="row">Miopi</th>
+          <td>Used at 1/4 HP, increases random stat by 2 stages.</td>
+        </tr>
+        <tr>
+          <th scope="row">Golbop</th>
+          <td>Used when hit by a super effective attack, heals by 1/4 HP.</td>
+        </tr>
+        <tr>
+          <th scope="row">Mitsi</th>
+          <td>Used at 1/4 HP, increases accuracy of the next attack by 20%.</td>
+        </tr>
+        <tr>
+          <th scope="row">Papou</th>
+          <td>Used at 1/4 HP, Boost crit by 2 stages.</td>
+        </tr>
+        <tr>
+          <th scope="row">Cozi</th>
+          <td>Used at 1/4 HP, User will attack first Unless when attacked by a priority move.</td>
+        </tr>
+        <tr>
+          <th scope="row">Ertha</th>
+          <td>increases Sp.Def by 1 stage if hit by a speical attack.</td>
+        </tr>
+        <tr>
+          <th scope="row">Lee</th>
+          <td>Increases Def by 1 stage when hit with a physical move.</td>
+        </tr>
+        <tr>
+          <th scope="row">Yannoi</th>
+          <td>Used when hit by a physical attack, the attacker is damaged by 1/8 of the users HP</td>
+        </tr>
+        <tr>
+          <th scope="row">Frizy</th>
+          <td>Damages Attacker by 1/8 of the users HP if hit with a sp.Atk. </td>
+        </tr>
+        <tr>
+          <th scope="row">Golu</th>
+          <td>Cures Frozen revo.</td>
+        </tr>
+        <tr>
+          <th scope="row">Jadwa</th>
+          <td>Cures confusion</td>
+        </tr>
+        <tr>
+          <th scope="row">Juiti</th>
+          <td>Cures Paralysis</td>
+        </tr>
+        <tr>
+          <th scope="row">Wiltu</th>
+          <td>Cures Burns</td>
+        </tr>
+        <tr>
+          <th scope="row">Peachu</th>
+          <td>Cures Poison</td>
+        </tr>
+        <tr>
+          <th scope="row">Vilvi</th>
+          <td>Cures all status conditions, (sleep) (paralysis) (poison) (frozen) (confused) Probably one of the best berrys.</td>
+        </tr>
+
+
+
+        <tr>
+          <th scope="row">Karoto</th>
+          <td>Reduces HP EVs by 10 points.</td>
+        </tr>  
+        <tr>
+          <th scope="row">Kankoo</th>
+          <td>Reduces Attack EVs by 10 points.</td>
+        </tr>    
+        <tr>
+          <th scope="row">Papille</th>
+          <td>Reduces Defense EVs by 10 points.</td>
+        </tr>
+        
+        <tr>
+          <th scope="row">Derlu</th>
+          <td>Reduces Sp.Atk EVs by 10 points.</td>
+        </tr>
+        <tr>
+          <th scope="row">Wilso</th>
+          <td>Reduces Sp.Defense EVs by 10 points.</td>
+        </tr>
+        <tr>
+          <th scope="row">Issou</th>
+          <td>Reduces Speed EVs by 10 points.</td>
+        </tr>
+        <tr>
+          <th scope="row">Vrio</th>
+          <td>Used at Half HP, heals only 10 HP. --- WEAK BERRY!.</td>
+        </tr>
+        <tr>
+          <th scope="row">Kanda</th>
+          <td>Restore 10 PP to a revomons move.</td>
+        </tr>
+      </tbody>
+
+
+
+<!-- <a href="https://docs.google.com/spreadsheets/d/1FYU_Pr4_n0IOoTHTbGTewAahJw9OFBsh/edit#gid=468936329" target="_blank"><h2>Moongates Move List </h2></a> -->
+    </Main>
+        <!-- Scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+</body>

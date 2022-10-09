@@ -1,0 +1,628 @@
+// nav______________________
+*{
+  box-sizing: border-box;
+}
+.logo{
+  height: auto;
+  width: auto;
+  max-height: 70px;
+  max-width: 250px;
+  
+}
+#links a{
+  color:#0efff3;
+  font-size:20px;
+  text-shadow: 3px 5px 5px #0e008b;
+}
+
+.navMiniMenu{
+color:rgb(184, 109, 11);
+border: solid white;
+text-decoration: none;
+
+}
+.navbar-nav li{
+  transition: transform .2s; /* Animation */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.navbar-nav li:hover{
+  transform: scale(1.1);
+}
+
+a{
+  color:rgb(255, 246, 246);
+  text-decoration: none;
+}
+h1 {
+    color: rgb(255, 198, 9);
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+
+}
+h3 {
+  margin-top: 2rem;
+}
+// Custom colors________________
+
+:root{
+  --accordianBody: rgb(0, 0, 0);
+  --textcolor:white;
+  --namecolors: rgb(255, 222, 35);
+  
+}
+// Navigation css_____________
+.hamburgerMenu{
+  border: .2rem inset rgb(243, 243, 243);
+  color: rgb(73, 72, 72);
+
+}
+.hamburgerMenu:hover{
+  border: .2rem inset rgb(204, 11, 11);
+  color: rgb(238, 223, 223);
+}
+
+
+nav{
+  font-weight: bold;
+  background-image: linear-gradient(45deg, rgb(0, 0, 0),rgb(59, 4, 61), rgb(250, 206, 11), rgb(55, 1, 68), rgb(247, 213, 22), rgb(0, 0, 0));
+  border: .2rem outset rgb(248, 248, 248);
+  font-family:Arial bold, Helvetica, sans-serif;
+  border-radius: 10%;
+  
+
+  
+}
+// Counter dex icon
+.counterdexbtn{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  margin-left: 1rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 1px 1px #201f1f;
+  
+}
+
+
+// body css_________________
+body{
+  padding: 25px;
+  background-color: var(--accordianBody);
+  color: var(--textcolor);
+  list-style: none;
+  h2, h3{
+    color: var(--namecolors);
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #ff0e0e;
+  }
+  li{
+    list-style: none;
+  }
+  .accordion-item, .accordion-button{
+    background-color: var(--accordianBody);
+    color: var(--textcolor);
+  }
+  .locationImg{
+
+    max-height: 200px;
+  }
+  main{
+    margin-top: 6rem;
+    font-weight: bold;
+    font-size: large;
+  }
+.yakati{
+  background-image: url("./images/yakati1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+  
+  
+}
+.cinvia{
+  background-image: url("./images/cinvia1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+  
+}
+.marquis{
+  background-image: url("./images/marquis1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+.kadrick{
+  background-image: url("./images/kadric1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+.drassius{
+  background-image: url("./images/drassius1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+.ramboo{
+  background-image: url("./images/ramboo1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+.route{
+  background-image: url(".//images/route1.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+.sakura{
+  background-image: url(".//images/sakura1.jpg");
+  max-width: 1200px;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+
+
+
+
+// Calcultor CSS
+.valulatorBG{
+  background-image: url("./images/valulatorRoom.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat:no-repeat;
+}
+
+.searchbar {
+  padding: 10px;
+  width: 250px;
+  border: solid #380bff 1px;
+  border-radius: 5px 0px 0px 5px;
+  -webkit-transition: box-shadow linear 0.2s;
+  transition: box-shadow linear 0.2s, width 500ms ease;
+}
+
+.searchbar:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #000102;
+  width: 280px;
+}
+
+.searchbar:hover {
+  border-color: #fbff01;
+  box-shadow: 0 0 10px #9ecaed;
+  width: 280px;
+}
+
+
+
+
+
+
+  // StatsCss________________________
+  .stats{
+    font-size: small;
+    margin: 1rem;
+    border-radius: 70%;
+  }
+  .revomonNameCss{
+    background-color: #c300ff;
+  }
+
+}
+// 
+
+// Type Buttons css _________________________
+.icebtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(15, 161, 219, 0.452),rgb(64, 248, 233),rgb(236, 227, 227));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="icebtn"><a href="https://www.smogon.com/dex/xy/types/ice/" target="_blank">Ice</a></button>
+}
+.firebtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgb(255, 107, 21),rgb(243, 69, 0),rgb(255, 94, 30));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="firebtn"><a href="https://www.smogon.com/dex/xy/types/fire/" target="_blank">Fire</a></button>
+}
+.metalbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(23, 79, 134, 0.452),rgb(19, 73, 117),rgb(32, 66, 97));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="metalbtn"><a href="https://www.smogon.com/dex/xy/types/steel/" target="_blank">Metal</a></button>
+}
+.waterbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(71, 59, 238, 0.452),rgb(46, 16, 216),rgb(70, 77, 177));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="waterbtn"><a href="https://www.smogon.com/dex/xy/types/water/" target="_blank">Water</a></button>
+}
+.draconicbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(154, 8, 252, 0.452),rgb(156, 15, 168),rgb(199, 82, 228));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="draconicbtn"><a href="https://www.smogon.com/dex/xy/types/dragon/" target="_blank">Draconic</a></button>
+}
+.skybtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(201, 148, 226, 0.452),rgb(172, 123, 172),rgb(240, 189, 241));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="skybtn"><a href="https://www.smogon.com/dex/xy/types/flying/" target="_blank">Sky</a></button>
+}
+.forestbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(52, 245, 3, 0.452),rgb(94, 204, 130),rgb(18, 212, 12));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="forestbtn"><a href="https://www.smogon.com/dex/xy/types/grass/" target="_blank">Forest</a></button>
+}
+.earthbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(164, 167, 17, 0.452),rgb(139, 117, 16),rgb(161, 160, 67));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="earthbtn"><a href="https://www.smogon.com/dex/xy/types/ground/" target="_blank">Earth</a></button>
+}
+.battlebtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(112, 8, 8, 0.452),rgb(223, 17, 17),rgb(95, 9, 9));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="battlebtn"><a href="https://www.smogon.com/dex/xy/types/fighting/" target="_blank">Battle</a></button>
+}
+.stonebtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(156, 104, 26, 0.452),rgb(177, 150, 62),rgb(109, 91, 9));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="stonebtn"><a href="https://www.smogon.com/dex/xy/types/rock/" target="_blank">Stone</a></button>
+}
+.spiritbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(255, 75, 216, 0.452),rgb(184, 81, 153),rgb(230, 31, 220));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="spiritbtn"><a href="https://www.smogon.com/dex/xy/types/fairy/" target="_blank">Spirit</a></button>
+}
+.phantombtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(52, 0, 63, 0.452),rgb(77, 47, 85),rgb(59, 30, 58));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="phantombtn"><a href="https://www.smogon.com/dex/xy/types/ghost/" target="_blank">Phantom</a></button>
+}
+.neutralbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(88, 81, 81, 0.452),rgb(65, 66, 66),rgb(77, 77, 77));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="neutralbtn"><a href="https://www.smogon.com/dex/xy/types/normal/" target="_blank">Neutral</a></button>
+}
+.electricbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(251, 255, 16, 0.979),rgb(86, 107, 9),rgb(251, 255, 4));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="electricbtn"><a href="https://www.smogon.com/dex/xy/types/electric/" target="_blank">Electric</a></button>
+}
+.toxicbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(71, 2, 68, 0.452),rgb(80, 10, 80),rgb(90, 28, 124));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="toxicbtn"><a href="https://www.smogon.com/dex/xy/types/poison/" target="_blank">Toxic</a></button>
+}
+.bugbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(82, 182, 1, 0.452),rgb(87, 117, 52),rgb(83, 155, 0));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="bugbtn"><a href="https://www.smogon.com/dex/xy/types/bug/" target="_blank">Bug</a></button>
+}
+.timebtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(247, 118, 67, 0.959),rgb(233, 68, 68),rgb(247, 81, 81));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="timebtn"><a href="https://www.smogon.com/dex/xy/types/psychic/" target="_blank">Time</a></button>
+}
+.twilightbtn{
+  min-width: 80px ;
+  border-radius: 20%;
+  background-image: linear-gradient(45deg, rgba(0, 1, 2, 0.452),rgb(46, 48, 48),rgb(56, 55, 55));
+  font-size: large;
+  font-weight: bold;
+
+  // <button class="twilightbtn"><a href="https://www.smogon.com/dex/xy/types/dark/" target="_blank">Twilight</a></button>
+}
+
+
+
+// Group 1,Group2,Group3
+.accordion-body{
+  background-color: var(--accordianBody);
+  text-decoration: var(--textcolor);
+
+}
+
+.group1 ul,.group2 ul {
+  list-style: none;
+  color: var(--textcolor);
+
+}
+
+.group1, .group2, .group3 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+// image CSS
+
+
+
+.bgImg{
+  /* Full height */
+width: 11rem;
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+animation-duration: 3s;
+animation-iteration-count:
+infinite;
+    transform-origin: bottom;
+}
+.bgImg:hover {
+  animation-name: bounce;
+  animation-timing-function: ease;
+  
+}
+@keyframes bounce {
+25%   { transform: translateX(50); }
+50%  { transform: translateY(150); }
+100% { transform: scale(1.9, 1.7); }
+}
+
+.smImg{
+  width: 2.5rem;
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 2rem;
+
+}
+
+
+// Group2
+.group2{
+  margin-bottom: 3rem;
+  
+}
+.group3 li{
+margin-bottom: 1.5rem;
+color: var(--textcolor);
+background-color: var(--accordianBody);
+list-style: none;
+}
+
+// Tier list CSS______________________________________________
+
+
+
+.showAllbtn{
+  background-image: linear-gradient(45deg, rgb(44, 18, 46),rgb(218, 150, 201), rgb(168, 101, 159));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(238, 226, 226);
+}
+.showAllbtn:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+.s-tierMon{
+  background-image: linear-gradient(45deg, rgb(114, 32, 7),rgb(255, 32, 2), rgb(226, 81, 71));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(255, 255, 255);
+}
+
+.s-tierMon:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+
+// A-Tier CSS
+.a-tierMon{
+  background-image: linear-gradient(45deg, rgb(110, 28, 4),rgb(240, 82, 9), rgb(226, 81, 71));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(255, 255, 255);
+}
+.a-tierMon:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+// B-Tier CSS
+.b-tierMon{
+  background-image: linear-gradient(45deg, rgb(235, 99, 57),rgb(204, 142, 26), rgb(226, 81, 71));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(255, 255, 255);
+}
+.b-tierMon:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+// C-tier Css
+.c-tierMon{
+  background-image: linear-gradient(45deg, rgb(235, 99, 57),rgb(248, 233, 26), rgb(221, 233, 53));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(255, 255, 255);
+}
+.c-tierMon:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+// D-Tier CSS
+.d-tierMon{
+  background-image: linear-gradient(45deg, rgb(136, 145, 11),rgb(149, 252, 135), rgb(27, 75, 43));
+  
+  font-weight: bold;
+  border: .2rem inset rgb(255, 255, 255);
+}
+.d-tierMon:hover {
+  color: white;
+  border: .2rem inset rgb(10, 212, 248);
+}
+// Revomon nme hover effects
+.sTier:hover, .aTier:hover, .bTier:hover, .cTier:hover, .dTier:hover{
+  border:  inset rgb(232, 248, 10);
+}
+// revomon.online button
+.revomonOnlineBtn{
+  background-image: linear-gradient(45deg, rgb(4, 0, 247),rgb(6, 7, 43), rgb(19, 1, 179));
+  width: 10rem;
+  height: 5rem;
+  font-weight: bold;
+  color: rgb(255, 248, 248);
+  border: .2rem inset rgb(243, 129, 129);
+}
+.revomonOnlineBtn:hover {
+  color: rgb(235, 226, 226);
+  border: .2rem inset rgb(231, 231, 231);
+}
+
+
+
+
+// General information CSS===================================================================
+.typeTable{
+  max-width: 1100px;
+  min-width: 350px;
+}
+.valuelator{
+  max-width: 900px;
+  min-width: 350px;
+
+}
+.topTypes{
+  max-width:30px ;
+
+}
+.corner{
+margin-right: 110px;
+}
+.redd{
+  font-size: larger;
+}
+
+
+
+
+// Calculators CSS--=====================================================================================
+.calculator-container{
+  border: #c300ff solid;
+}
+.ivStats{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+// Media querys
+
+@media only screen and (min-width: 650px) {
+
+    .group2{
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-items: center;
+      margin: 2rem;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+    .logo{
+      max-width: 100px;
+    }
+    .marginTop{
+      margin-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+
+    .marginTop{
+      margin-top: 50px;
+    }
+  }
+  @media only screen and (min-width: 991px) {
+
+    nav h1{font-size: larger;}
+
+
+  }
+  @media only screen and (max-width: 300px) {
+    .logo{
+      max-width: 70px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .counterdexbtn{
+      font-size: medium;
+    }
+    .logo{
+      max-width: 80px;
+    }
+  }
+
+
+// For Desktop View
+
