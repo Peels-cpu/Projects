@@ -186,6 +186,18 @@ function dTierbtn(){
         info: 'In terms of pvp value, a Wolpan-Opawan is valued highly if it has a timid/Hasty or Naive nature with its speed and SpA IVs are near 31. The Ability Dark Aura is  more valuable than Insomnia and Bad dreams as it provides opawans dark pulse a massive damage boost and dark aura is a hidden ability which is really rare in terms of obtainability.'
 
     };
+
+    let murdoll = {
+        name: 'Murdoll',
+        image: "https://nft.revomon.io/image/raw/revomon/778.png",
+        abilities: [ "Disguise", "---", '---'],
+        info: 'Murdoll is a holloween event revomon and becomes uncatchable after december 1st of 2022. Jolly with near 31 attack and speed will give murdoll the most value.'
+        // name: 'Polluvern',
+        // image: "https://nft.revomon.io/image/raw/revomon/804.png",
+        // abilities: [ "Pick an Ability","Pressure","Levitate"],
+        // info: 'In terms of pvp value, a Polluvern is only valuable when it has a timid, hasty or naive nature with its speed and SpA IVs are over 25, preferably 31 for the most value. The Ability Levitate is slightly more valuable than Pressure. '
+
+    };
     let raival = {
         name: 'Raival',
         image: "https://nft.revomon.io/image/raw/revomon/145_shiny.png",
@@ -412,6 +424,7 @@ function dTierbtn(){
 
 
 
+
     
 
 
@@ -428,6 +441,9 @@ function getVal() {
     switch(val) {
 
         // Make the abilities show for each revomon the ability page in html using js.
+
+
+
         case "Polluvern":
         document.getElementById('revoImg').src = polluvern.image;
         document.getElementById('a1').innerHTML = polluvern.abilities[0];
@@ -443,7 +459,15 @@ function getVal() {
         document.getElementById('a2').innerHTML = opawan.abilities[1];
         document.getElementById('a3').innerHTML = opawan.abilities[2];
         document.getElementById('revoPriceInfo').innerHTML = opawan.info;
-  
+        break;
+
+        case 'Murdoll':
+        document.getElementById('revoImg').src = murdoll.image;
+        document.getElementById('a1').innerHTML = murdoll.abilities[0];
+        document.getElementById('a2').innerHTML = murdoll.abilities[1];
+        document.getElementById('a3').innerHTML = murdoll.abilities[2];
+        document.getElementById('revoPriceInfo').innerHTML = murdoll.info;
+
         break;
 
         case 'Raival':
@@ -756,6 +780,8 @@ console.log('This works');
         }
 
         switch(val) {
+            
+
             case "Polluvern":
                 basePrice = 0;
                 if ((natureL1.value == "Timid" ) || (natureL1.value == "Naive" ) || (natureL1.value == "Hasty")) {
@@ -1069,7 +1095,130 @@ console.log('This works');
             break;
 
             // End of opawan--------------------------------------------------------------------
-   
+            case 'Murdoll':
+                basePrice = 0;
+                if ((natureL1.value == "Jolly" ) || (natureL1.value == "Adamant")) {
+                    if (document.getElementById('ability1').checked) {
+                        document.getElementById("priceTag").innerHTML =  basePrice;
+                        document.getElementById("valuelator").innerHTML =  "";
+                    }
+                    if (natureL1.value == 'Jolly')  {
+                        basePrice += 100;
+                    }
+        //                            HP IVS
+                    if (hpIvs.value >= '20' && hpIvs.value <= '23')  {
+                        basePrice += 75;
+                    }
+                    if (hpIvs.value >= '24' && hpIvs.value <= '27') {
+                        basePrice += 100;
+                    }
+                    if (hpIvs.value >= '28' && hpIvs.value <= '31') {
+                        basePrice += 125;
+                    }
+                        //              Def ivs
+                    if (defIvs.value >= '20' && defIvs.value <= '23') {
+                        basePrice += 50;
+                    }
+                    if (defIvs.value >= '24' && defIvs.value <= '27') {
+                        basePrice += 75;
+                    }
+                    if (defIvs.value >= '28' && defIvs.value <= '31') {
+                        basePrice += 100;
+                    }
+                    //                  spD IVs
+                    if (spdIvs.value >= '20' && spdIvs.value <= '23') {
+                        basePrice += 50;
+                    }
+                    if (spdIvs.value >= '24' && spdIvs.value <= '27') {
+                        basePrice += 75;
+                    }
+                    if (spdIvs.value >= '28' && spdIvs.value <= '31') {
+                        basePrice += 100;
+                    }
+                    if  ((natureL1.value == "Jolly" ) || (natureL1.value == "Adamant" ))  {
+                        //                  Atk ivs
+                        if (atkIvs.value >= '20' && atkIvs.value <= '23') {
+                            basePrice += 10;
+                        }
+                        if (atkIvs.value >= '24' && atkIvs.value <= '27') {
+                            basePrice += 150;
+                        }
+                        if (atkIvs.value >= '28' && atkIvs.value <= '31') {
+                            basePrice += 300;
+                        }
+                    }
+
+                    //                  speed ivs
+                    if (speedIvs.value >= '20' && speedIvs.value <= '23') {
+                        basePrice += 50;
+                    }
+                    if (speedIvs.value >= '24' && speedIvs.value <= '27') {
+                        basePrice += 100;
+                    }
+                    if (speedIvs.value >= '28' && speedIvs.value <= '31') {
+                        basePrice += 300;
+                    }
+
+                    // Shiny
+                    if (document.getElementById('shiny').checked) {
+                        basePrice = `This is a Shiny Rare with a very low chance of it being shiny. Atlest 10,000$ in revo.`
+                        document.getElementById("priceTag").innerHTML =  basePrice;
+                        document.getElementById("valuelator").innerHTML =  sPlus;
+                        return
+                    }
+                    if ((speedIvs.value < '20') || (atkIvs.value < '20' && speedIvs.value < '20' )) {
+                        basePrice = 'The main value of a Murdoll comes from its Nature being jolly and IVs for attack and speed being higher than 20, otherwise it is less valueble and not as useful in pvp battles';
+                        document.getElementById("valuelator").innerHTML =  d;
+                        document.getElementById("priceTag").innerHTML =  basePrice;
+                        return
+                    }
+                    // value rating based on price.
+                    if (basePrice <= 449 && basePrice >= 350 ) {
+                        document.getElementById("valuelator").innerHTML =  c;
+                    }
+                    if (basePrice >= 450 && basePrice <= 600 ) {
+                        document.getElementById("valuelator").innerHTML =  cPlus;
+                    }
+                    if (basePrice >= 600 && basePrice <= 699) {
+                        document.getElementById("valuelator").innerHTML =  b;
+                    }
+                    if (basePrice >= 700 && basePrice <= 799) {
+                        document.getElementById("valuelator").innerHTML =  bPlus;
+                    }
+                    if (basePrice >= 800 && basePrice <= 899) {
+                        document.getElementById("valuelator").innerHTML =  a;
+                    }
+                    if (basePrice >= 900 && basePrice <= 999) {
+                        document.getElementById("valuelator").innerHTML =  aPlus;
+                    }
+                    if (basePrice >= 1000 && basePrice <= 1150) {
+                        document.getElementById("valuelator").innerHTML =  s;
+                    }
+                    if (basePrice >= 1151 && basePrice <= 1500) {
+                        document.getElementById("valuelator").innerHTML =  sPlus;
+                    }
+
+                    document.getElementById("priceTag").innerHTML =  `${basePrice} minimum ${inrevo}`;
+                    return
+                };
+                // Shiny
+                if (document.getElementById('shiny').checked) {
+                    basePrice = `This is a Shiny Rare with a very low chance of it being shiny. Atlest 10,000$ in revo.`
+                    document.getElementById("priceTag").innerHTML =  basePrice;
+                    document.getElementById("valuelator").innerHTML =  sPlus;
+                    return
+                }
+                // If not the correct natures
+                if ((natureL1.value != "Jolly"  ) || (natureL1.value != "Adamanat" ) ||( speedIvs.value < "20" ))  {
+                     basePrice = "Unless Murdoll is Jolly or Adamant in nature with speed and atk IVs greater than 20, your Murdoll is (Not worth much compared to other strong Murdoll's)."
+                     document.getElementById("priceTag").innerHTML =  basePrice;
+                     document.getElementById("valuelator").innerHTML =  d;
+                     return
+                 }
+                
+            break;
+            // End of murdoll      
+
             case 'Raival':
                 basePrice = 0;
                 if ((natureL1.value == "Bold" ) || (natureL1.value == "Modest" ) || (natureL1.value == "Calm") || (natureL1.value == "Timid" )) {
