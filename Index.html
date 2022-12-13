@@ -8,6 +8,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="sass.css?v=1.1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
 </head>
 <body>
@@ -20,7 +21,7 @@
                     <span class="navbar-toggler-icon bg-secondary hamburgerMenu"></span>
                 </button>
                 
-                <img src="/images/Counterdexlogo.edit.png" style="margin-right:100px;" class="logo">
+                <img src="images/Counterdexlogo.edit.png" style="margin-right:100px;" class="logo">
                 <hr>
                 <div class="collapse navbar-collapse " id="navbarNavDropdown">
                     <ul class="navbar-nav" id="links">
@@ -30,15 +31,16 @@
                           </li>
                           <hr>
                           <li class="nav-item">
+                            <a class="nav-link active text-center" aria-current="page" href="https://peels-cpu.github.io/react-projects/">Revo-Trivia</a>
+                          </li>
+                          <hr>
+                          <li class="nav-item">
                             <a class="nav-link  text-center " aria-current="page"  href="/Calculators.html">ValueLator</a>
                           </li>
                           <hr>
-                          <!--
-                        <li class="nav-item">
-                            <a class="nav-link active text-center" aria-current="page" href="/RevomonTV.html">RevoTV</a>
-                        </li>
-                        <hr>
-                            -->
+                          
+
+                           
                             
                         <!-- Clans/organizations -->
                         <li class="nav-item dropdown text-center">
@@ -65,8 +67,13 @@
           </nav>
     </header>
     <!-- Main-Content -->
-    <main class=" text-center counterdexBG container-fluid ">
+        <!-- Main body. -->
+
+    <main class=" text-center counterdexBG container-fluid pt-5">
         <h2 class="text-center">Welcome to the Counter Dex!</h2>
+
+
+
 
         <div class="group2">
             <div class="">
@@ -81,6 +88,8 @@
                 <button onclick="bTierbtn()" id="b-tierSearch" class="b-tierMon mx-1">B-Tier</button>
                 <button onclick="cTierbtn()" id="c-tierSearch" class="c-tierMon mx-1">C-Tier</button>
                 <button onclick="dTierbtn()" id="d-tierSearch" class="d-tierMon mx-1">D-Tier</button>
+                <h4>or</h4>
+                <button onclick="sortList()" class="showAllbtn mx-1">Sort By Alphabetical Order</button>
 
                 <div aria-label="Pok&eacute;mon 1" class="panel mt-3" role="region">
                     <fieldset class="poke-info  container-fluid" id="p1">
@@ -91,6 +100,7 @@
                         </div>
                     </fieldset>
                 </div>
+
             </div>
         
         </div>
@@ -101,11 +111,11 @@
 
 
         <!-- Endo of search bar -->
-        <div class="accordion accordion d-block  typeTable container-fluid  text-center "id="accordionFlushExample">
-           <div  >
+        <div  class="accordion accordion d-block  typeTable container-fluid  text-center "id="accordionFlushExample">
+           <div id="sorted" >
             <!-- Skadire -->
-            <div class="accordion-item aTier justify-content-center  "  >
-              <h2 class="accordion-header revo" id="flush-headingOne">
+            <div class="accordion-item sortt   aTier"  >Skadire
+              <h2 class="accordion-header revo " id="flush-headingOne">
                 <button  class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     <h2 id="skadire">Skadire </h2>
                     <img src="./images/revomonImg/skadire.png" alt="" class="smImg">
@@ -183,7 +193,9 @@
                         
 
                     </div>
-                                            
+                    <div class="BtnContainer">
+                        <h2>How well do you know Skadire?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>              
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -205,8 +217,8 @@
               </div>
             </div>
             <!--  Polluvern-->
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingTwo">
+            <div class="accordion-item sortt   sTier">Polluvern
+              <h2 class="accordion-header revo " id="flush-headingTwo">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                   <h2>Polluvern</h2>
                     <img src="./images/revomonImg/polluvern.png" alt="" class="smImg">
@@ -276,6 +288,9 @@
                         </ul>
 
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Polluvern?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3  ">
                         <ul class="text-center">
@@ -295,8 +310,8 @@
               </div>
             </div>
             <!-- Opawan -->
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingThree">
+            <div class="accordion-item sortt   a sTier ">Opawan
+              <h2 class="accordion-header revo " id="flush-headingThree">
                 <button  class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
                   <h2 >Opawan</h2>
                     <img src="./images/revomonImg/opawan.png" alt="" class="smImg">
@@ -370,7 +385,9 @@
                     <h2>Video by Gill from the House of Clans</h2>
                     <iframe width="560" height="315" class="container-fluid" src="https://www.youtube.com/embed/FuDa_rJ7OX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
-
+                    <div class="BtnContainer">
+                        <h2>How well do you know Opawan?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -394,10 +411,11 @@
               </div>
             </div>
             <!-- Meganeudra -->
-            <div class="accordion-item aTier">
-                <h2 class="accordion-header revo" id="flush-headingfour">
-                  <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapseOne">
+            <div class="accordion-item sortt   aTier">Meganeudra
+                <h2 class="accordion-header revo " id="flush-headingfour">
+                  <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
                    <h2>Meganeudra</h2> 
+                   
                     <img src="./images/revomonImg/meganeudra.png" alt="" class="smImg">
                   </button>
                 </h2>
@@ -465,6 +483,9 @@
                         </ul>
                         
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Meganeudra?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -482,8 +503,8 @@
               </div>
             </div>
             <!-- Nightmort -->
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingfive">
+            <div class="accordion-item sortt   bTier">Nightmort
+              <h2 class="accordion-header revo " id="flush-headingfive">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
                   <h2>Nightmort</h2>
                     <img src="./images/revomonImg/nightmort.png" alt="" class="smImg">
@@ -524,7 +545,6 @@
                             <h3>Typing Weakness</h3> 
                             <li><button class="phantombtn"><a href="https://www.smogon.com/dex/xy/types/ghost/" target="_blank">Phantom</a></button> 4x</li>
                             <li><button class="twilightbtn"><a href="https://www.smogon.com/dex/xy/types/dark/" target="_blank">Twilight</a></button> 4x</li>
-                            <li><button class="spiritbtn"><a href="https://www.smogon.com/dex/xy/types/fairy/" target="_blank">Spirit</a></button> 2x</li>
                         </ul> 
                     </div>
                     
@@ -550,6 +570,9 @@
 
                         </ul>
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Nightmort?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -566,8 +589,8 @@
               </div>
             </div>
             <!-- Gardsee -->
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingsix">
+            <div class="accordion-item sortt   dTier">Gardsee
+              <h2 class="accordion-header revo " id="flush-headingsix">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
                   <h2>Gardsee</h2>
                     <img src="./images/revomonImg/gardsee.png" alt="" class="smImg">
@@ -651,8 +674,8 @@
               </div>
             </div>
             <!-- Radarent -->
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingseven">
+            <div class="accordion-item sortt   dTier">Radarent
+              <h2 class="accordion-header revo " id="flush-headingseven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseven" aria-expanded="false" aria-controls="flush-collapseseven">
                   <h2>Radarent</h2>
                     <img src="./images/revomonImg/radarent.png" alt="" class="smImg">
@@ -732,8 +755,8 @@
               </div>
             </div>
             <!-- Dominevo -->
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingeight">
+            <div class="accordion-item sortt   bTier">Dominevo
+              <h2 class="accordion-header revo " id="flush-headingeight">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeight" aria-expanded="false" aria-controls="flush-collapseeight">
                   <h2>Dominevo</h2>
                     <img src="./images/revomonImg/dominevo.png" alt="" class="smImg">
@@ -800,6 +823,9 @@
                         </ul>
                            
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Dominevo?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -816,8 +842,8 @@
               </div>
             </div>
             <!-- Monking -->
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingnine">
+            <div class="accordion-item sortt   aTier">Monking
+              <h2 class="accordion-header revo " id="flush-headingnine">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenine" aria-expanded="false" aria-controls="flush-collapsenine">
                   <h2>Monking</h2>
                     <img src="./images/revomonImg/monking.png" alt="" class="smImg">
@@ -891,6 +917,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Monking?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -906,8 +935,8 @@
               </div>
             </div>
             <!-- Venturevo -->
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingten">
+            <div class="accordion-item sortt   dTier">Venturevo
+              <h2 class="accordion-header revo " id="flush-headingten">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseten" aria-expanded="false" aria-controls="flush-collapseten">
                   <h2>Venturevo</h2>
                     <img src="./images/revomonImg/venturevo.png" alt="" class="smImg">
@@ -987,8 +1016,8 @@
               </div>
             </div>
             <!-- veloswift -->
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingeleven">
+            <div class="accordion-item sortt   dTier">Veloswift
+              <h2 class="accordion-header revo " id="flush-headingeleven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeleven" aria-expanded="false" aria-controls="flush-collapseeleven">
                  <h2>Veloswift</h2>
                     <img src="./images/revomonImg/veloswift.png" alt="" class="smImg">
@@ -1071,8 +1100,8 @@
               </div>
             </div>
             <!-- Raival -->
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingtwelve">
+            <div class="accordion-item sortt   sTier">Raival
+              <h2 class="accordion-header revo " id="flush-headingtwelve">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwelve" aria-expanded="false" aria-controls="flush-collapsetwelve">
                   <h2>Raival</h2>
                     <img src="./images/revomonImg/raival.png" alt="" class="smImg">
@@ -1139,6 +1168,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Raival?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -1155,8 +1187,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingthirteen">
+            <div class="accordion-item sortt   aTier">Khepreetle
+              <h2 class="accordion-header revo " id="flush-headingthirteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirteen" aria-expanded="false" aria-controls="flush-collapsethirteen">
                  <h2>Khepreetle</h2> 
                     <img src="./images/revomonImg/khepreetle.png" alt="" class="smImg">
@@ -1197,7 +1229,6 @@
                             <h3>Typing Weakness</h3> 
                             <li><button class="stonebtn"><a href="https://www.smogon.com/dex/xy/types/rock/" target="_blank">Stone</a></button> 4x</li>
                             <li><button class="waterbtn"><a href="https://www.smogon.com/dex/xy/types/water/" target="_blank">Water</a></button> 2x</li>
-                            <li><button class="bugbtn"><a href="https://www.smogon.com/dex/xy/types/bug/" target="_blank">Bug</a></button> 2X</li>
                             <li><button class="skybtn"><a href="https://www.smogon.com/dex/xy/types/flying/" target="_blank">Sky</a></button> 2x</li>
                         </ul>   
                     </div>                    
@@ -1230,6 +1261,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Khepreetle?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -1246,8 +1280,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfourteen">
+            <div class="accordion-item sortt   cTier">Gorcano
+              <h2 class="accordion-header revo " id="flush-headingfourteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourteen" aria-expanded="false" aria-controls="flush-collapsefourteen">
                   <h2>Gorcano</h2>
                     <img src="./images/revomonImg/gorcano.png" alt="" class="smImg">
@@ -1342,8 +1376,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingfifteen">
+            <div class="accordion-item sortt   aTier">Romanfrig
+              <h2 class="accordion-header revo " id="flush-headingfifteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifteen" aria-expanded="false" aria-controls="flush-collapsefifteen">
                   <h2>Romanfrig</h2>
                     <img src="./images/revomonImg/romanfrig.png" alt="" class="smImg">
@@ -1410,6 +1444,9 @@
                         </ul>
                         
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Romanfrig?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -1429,8 +1466,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingsixteen">
+            <div class="accordion-item sortt   dTier">Volcanolisk
+              <h2 class="accordion-header revo " id="flush-headingsixteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesixteen" aria-expanded="false" aria-controls="flush-collapsesixteen">
                  <h2>Volcanolisk</h2> 
                     <img src="./images/revomonImg/volcanolisk.png" alt="" class="smImg">
@@ -1516,8 +1553,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingseventeen">
+            <div class="accordion-item sortt   dTier">Camprikine
+              <h2 class="accordion-header revo " id="flush-headingseventeen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseseventeen" aria-expanded="false" aria-controls="flush-collapseseventeen">
                   <h2>Camprikine</h2>
                     <img src="./images/revomonImg/camprikine.png" alt="" class="smImg">
@@ -1600,8 +1637,8 @@
               </div>
             </div>
             <!-- Murdoll -->
-            <div class="accordion-item sTier">
-                <h2 class="accordion-header revo" id="flush-headingSixtytwo">
+            <div class="accordion-item sortt   sTier">Murdoll
+                <h2 class="accordion-header revo " id="flush-headingSixtytwo">
                   <button  class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixtytwo" aria-expanded="false" aria-controls="flush-collapseSixtytwo">
                     <h2 >Murdoll</h2>
                       <img src="./images/revomonImg/murdoll.png" alt="" class="smImg">
@@ -1642,7 +1679,6 @@
                               <h3>Typing Weakness</h3> 
                               <li><button class="phantombtn"><a href="https://www.smogon.com/dex/xy/types/ghost/" target="_blank">Phantom</a></button> 2x</li>
                               <li><button class="metalbtn"><a href="https://www.smogon.com/dex/xy/types/steel/" target="_blank">Metal</a></button> 2x</li>
-                              <li><button class="toxicbtn"><a href="https://www.smogon.com/dex/xy/types/poison/" target="_blank">Toxic</a></button> 2x</li>
                             </ul>
                       </div>
   
@@ -1671,7 +1707,13 @@
   
                       </div>
                       <!-- Video -->
-
+                                            <!-- Video -->
+                    <h2>Video by Gill from the House of Clans</h2>
+                    <iframe class="container-fluid" width="560" height="315" src="https://www.youtube.com/embed/iZLUvpnYASA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Murdoll?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                       <!-- Group3 -->
                       <div class="group3 ">
                           <ul class="text-center">
@@ -1693,8 +1735,8 @@
               </div>
 
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingeighteen">
+            <div class="accordion-item sortt   aTier">R3V-UP
+              <h2 class="accordion-header revo " id="flush-headingeighteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeighteen" aria-expanded="false" aria-controls="flush-collapseeighteen">
                   <h2>R3V-UP</h2>
                     <img src="./images/revomonImg/revup.png" alt="" class="smImg">
@@ -1770,6 +1812,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Rev-up?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -1784,8 +1829,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingnineteen">
+            <div class="accordion-item sortt   dTier">Champlion
+              <h2 class="accordion-header revo " id="flush-headingnineteen">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsenineteen" aria-expanded="false" aria-controls="flush-collapsenineteen">
                   <h2>Champlion</h2>
                     <img src="./images/revomonImg/champlion.png" alt="" class="smImg">
@@ -1867,8 +1912,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingtwenty">
+            <div class="accordion-item sortt   dTier">Loftevo
+              <h2 class="accordion-header revo " id="flush-headingtwenty">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwenty" aria-expanded="false" aria-controls="flush-collapsetwenty">
                   <h2>Loftevo</h2>
                     <img src="./images/revomonImg/loftevo.png" alt="" class="smImg">
@@ -1952,8 +1997,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentyone">
+            <div class="accordion-item sortt   aTier">Furnice
+              <h2 class="accordion-header revo " id="flush-headingtwentyone">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentyone" aria-expanded="false" aria-controls="flush-collapsetwentyone">
                   <h2>Furnice</h2>
                     <img src="./images/revomonImg/furnice.png" alt="" class="smImg">
@@ -2023,6 +2068,9 @@
                         </ul>
                           
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Furnice?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -2041,8 +2089,8 @@
             </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentytwo">
+            <div class="accordion-item sortt   cTier">Pandozer
+              <h2 class="accordion-header revo " id="flush-headingtwentytwo">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentytwo" aria-expanded="false" aria-controls="flush-collapsetwentytwo">
                   <h2>Pandozer</h2>
                     <img src="/images/revomonImg/pandozer.png" alt="" class="smImg">
@@ -2129,8 +2177,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentythree">
+            <div class="accordion-item sortt   cTier">Moontis
+              <h2 class="accordion-header revo " id="flush-headingtwentythree">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentythree" aria-expanded="false" aria-controls="flush-collapsetwentythree">
                   <h2>Moontis</h2>
                     <img src="./images/revomonImg/moontis.png" alt="" class="smImg">
@@ -2216,8 +2264,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentyfour">
+            <div class="accordion-item sortt   cTier">Farinade
+              <h2 class="accordion-header revo " id="flush-headingtwentyfour">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentyfour" aria-expanded="false" aria-controls="flush-collapsetwentyfour">
                   <h2>Farinade</h2>
                     <img src="/images/revomonImg/farinade.png" alt="" class="smImg">
@@ -2301,8 +2349,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentyfive">
+            <div class="accordion-item sortt   aTier">Raftnesse
+              <h2 class="accordion-header revo " id="flush-headingtwentyfive">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentyfive" aria-expanded="false" aria-controls="flush-collapsetwentyfive">
                   <h2>Raftnesse</h2>
                     <img src="./images/revomonImg/raftnesse.png" alt="" class="smImg">
@@ -2369,6 +2417,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Raftnesse?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -2386,8 +2437,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentysix">
+            <div class="accordion-item sortt   dTier">Wintursa
+              <h2 class="accordion-header revo " id="flush-headingtwentysix">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentysix" aria-expanded="false" aria-controls="flush-collapsetwentysix">
                   <h2>Wintursa</h2>
                     <img src="/images/revomonImg/wintursa.png" alt="" class="smImg">
@@ -2473,8 +2524,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentyseven">
+            <div class="accordion-item sortt   cTier">Spectreat
+              <h2 class="accordion-header revo " id="flush-headingtwentyseven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentyseven" aria-expanded="false" aria-controls="flush-collapsetwentyseven">
                   <h2>Spectreat</h2>
                     <img src="/images/revomonImg/spectreat.png" alt="" class="smImg">
@@ -2543,6 +2594,9 @@
                         </ul>
                           
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Spectreat?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -2559,8 +2613,8 @@
               </div>
             </div>
 
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentyeight">
+            <div class="accordion-item sortt   sTier">Soarnox
+              <h2 class="accordion-header revo " id="flush-headingtwentyeight">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentyeight" aria-expanded="false" aria-controls="flush-collapsetwentyeight">
                   <h2>Soarnox</h2>
                     <img src="./images/revomonImg/soarnox.png" alt="" class="smImg">
@@ -2647,6 +2701,9 @@
                         </ul>
                           
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Soarnox?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -2662,8 +2719,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingtwentynine">
+            <div class="accordion-item sortt   dTier">Smogshroom
+              <h2 class="accordion-header revo " id="flush-headingtwentynine">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsetwentynine" aria-expanded="false" aria-controls="flush-collapsetwentynine">
                   <h2>Smogshroom</h2>
                     <img src="/images/revomonImg/smogshroom.png" alt="" class="smImg">
@@ -2747,8 +2804,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingthirty">
+            <div class="accordion-item sortt   aTier">Craggon
+              <h2 class="accordion-header revo " id="flush-headingthirty">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirty" aria-expanded="false" aria-controls="flush-collapsethirty">
                   <h2>Craggon</h2>
                     <img src="/images/revomonImg/craggon.png" alt="" class="smImg">
@@ -2819,9 +2876,12 @@
                     </div>
                     <!-- Videos -->
                     <h2>Video by Gill from the House of Clans</h2>
-                    <iframe width="560" class="container-fluid" height="315" src="https://www.youtube.com/embed/7N6gS9wZkDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe muted ="muted" width="560" class="container-fluid" height="315" src="https://www.youtube.com/embed/7N6gS9wZkDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
                     <!-- Group3 -->
+                    <div class="BtnContainer">
+                        <h2>How well do you know Craggon?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <div class="group3 ">
                         <ul class="text-center">
                             <h3>Tips and counters.</h3>
@@ -2839,8 +2899,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtyone">
+            <div class="accordion-item sortt   cTier">Deksciple
+              <h2 class="accordion-header revo " id="flush-headingthirtyone">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtyone" aria-expanded="false" aria-controls="flush-collapsethirtyone">
                   <h2>Deksciple</h2>
                     <img src="/images/revomonImg/dekciple.png" alt="" class="smImg">
@@ -2926,8 +2986,8 @@
               </div>
             </div>
 
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtytwo">
+            <div class="accordion-item sortt   sTier">Tidju
+              <h2 class="accordion-header revo " id="flush-headingthirtytwo">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtytwo" aria-expanded="false" aria-controls="flush-collapsethirtytwo">
                  <h2>Tidju</h2>
                     <img src="/images/revomonImg/tidju.png" alt="" class="smImg">
@@ -3016,8 +3076,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtythree">
+            <div class="accordion-item sortt   bTier">Blizzora
+              <h2 class="accordion-header revo " id="flush-headingthirtythree">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtythree" aria-expanded="false" aria-controls="flush-collapsethirtythree">
                   <h2>Blizzora</h2>
                     <img src="./images/revomonImg/blizzora.png" alt="" class="smImg">
@@ -3106,8 +3166,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtyfour">
+            <div class="accordion-item sortt   dTier">Skultergeist
+              <h2 class="accordion-header revo " id="flush-headingthirtyfour">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtyfour" aria-expanded="false" aria-controls="flush-collapsethirtyfour">
                   <h2>Skultergeist</h2>
                     <img src="/images/revomonImg/skultergeist.png" alt="" class="smImg">
@@ -3188,8 +3248,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtyfive">
+            <div class="accordion-item sortt   bTier">Kasket
+              <h2 class="accordion-header revo " id="flush-headingthirtyfive">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtyfive" aria-expanded="false" aria-controls="flush-collapsethirtyfive">
                   <h2>Kasket</h2>
                     <img src="/images/revomonImg/kasket.png" alt="" class="smImg">
@@ -3274,8 +3334,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtysix">
+            <div class="accordion-item sortt   aTier">Dexfyre
+              <h2 class="accordion-header revo " id="flush-headingthirtysix">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtysix" aria-expanded="false" aria-controls="flush-collapsethirtysix">
                   <h2>Dexfyre</h2>
                     <img src="./images/revomonImg/dexfyre.png" alt="" class="smImg">
@@ -3361,8 +3421,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtyseven">
+            <div class="accordion-item sortt   dTier">Falcolt
+              <h2 class="accordion-header revo " id="flush-headingthirtyseven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtyseven" aria-expanded="false" aria-controls="flush-collapsethirtyseven">
                   <h2>Falcolt</h2>
                     <img src="/images/revomonImg/falcolt.png" alt="" class="smImg">
@@ -3443,8 +3503,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtyeight">
+            <div class="accordion-item sortt   bTier">Atolloise
+              <h2 class="accordion-header revo " id="flush-headingthirtyeight">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtyeight" aria-expanded="false" aria-controls="flush-collapsethirtyeight">
                   <h2>Atolloise</h2>
                     <img src="/images/revomonImg/atolloise.png" alt="" class="smImg">
@@ -3528,8 +3588,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingthirtynine">
+            <div class="accordion-item sortt   dTier">Skwerboros
+              <h2 class="accordion-header revo " id="flush-headingthirtynine">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsethirtynine" aria-expanded="false" aria-controls="flush-collapsethirtynine">
                   <h2>Skwerboros</h2>
                     <img src="/images/revomonImg/skwerboros.png" alt="" class="smImg">
@@ -3613,8 +3673,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfourty">
+            <div class="accordion-item sortt   cTier">Masakaridon
+              <h2 class="accordion-header revo " id="flush-headingfourty">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourty" aria-expanded="false" aria-controls="flush-collapsefourty">
                   <h2>Masakaridon</h2>
                     <img src="/images/revomonImg/masakaridon.png" alt="" class="smImg">
@@ -3712,8 +3772,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtyone">
+            <div class="accordion-item sortt   aTier">Buckalloy
+              <h2 class="accordion-header revo " id="flush-headingfourtyone">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtyone" aria-expanded="false" aria-controls="flush-collapsefourtyone">
                   <h2>Buckalloy</h2>
                     <img src="/images/revomonImg/buckalloy.png" alt="" class="smImg">
@@ -3798,8 +3858,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtytwo">
+            <div class="accordion-item sortt   bTier">Twilevo
+              <h2 class="accordion-header revo " id="flush-headingfourtytwo">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtytwo" aria-expanded="false" aria-controls="flush-collapsefourtytwo">
                   <h2>Twilevo</h2>
                     <img src="/images/revomonImg/twilevo.png" alt="" class="smImg">
@@ -3881,8 +3941,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtythree">
+            <div class="accordion-item sortt   dTier">Drakevo
+              <h2 class="accordion-header revo " id="flush-headingfourtythree">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtythree" aria-expanded="false" aria-controls="flush-collapsefourtythree">
                   <h2>Drakevo</h2>
                     <img src="/images/revomonImg/drakevo.png" alt="" class="smImg">
@@ -3963,8 +4023,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtyfour">
+            <div class="accordion-item sortt   cTier">Comboworm
+              <h2 class="accordion-header revo " id="flush-headingfourtyfour">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtyfour" aria-expanded="false" aria-controls="flush-collapsefourtyfour">
                   <h2>Comboworm</h2>
                     <img src="/images/revomonImg/comboworm.png" alt="" class="smImg">
@@ -4048,8 +4108,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtyfive">
+            <div class="accordion-item sortt   aTier">Triplydra
+              <h2 class="accordion-header revo " id="flush-headingfourtyfive">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtyfive" aria-expanded="false" aria-controls="flush-collapsefourtyfive">
                  <h2>Triplydra</h2>
                     <img src="/images/revomonImg/triplydra.png" alt="" class="smImg">
@@ -4115,6 +4175,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Triplydra?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -4132,8 +4195,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtysix">
+            <div class="accordion-item sortt   dTier">Slisces
+              <h2 class="accordion-header revo " id="flush-headingfourtysix">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtysix" aria-expanded="false" aria-controls="flush-collapsefourtysix">
                   <h2> Slisces</h2>
                     <img src="/images/revomonImg/slisces.png" alt="" class="smImg">
@@ -4215,8 +4278,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtyseven">
+            <div class="accordion-item sortt   cTier">Hauntevo
+              <h2 class="accordion-header revo " id="flush-headingfourtyseven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtyseven" aria-expanded="false" aria-controls="flush-collapsefourtyseven">
                   <h2>Hauntevo</h2>
                     <img src="/images/revomonImg/hauntevo.png" alt="" class="smImg">
@@ -4303,8 +4366,8 @@
               </div>
             </div>
 
-            <div class="accordion-item aTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtyeight">
+            <div class="accordion-item sortt   aTier">Leximinth
+              <h2 class="accordion-header revo " id="flush-headingfourtyeight">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtyeight" aria-expanded="false" aria-controls="flush-collapsefourtyeight">
                   <h2>Leximinth</h2>
                     <img src="/images/revomonImg/leximinth.png" alt="" class="smImg">
@@ -4372,6 +4435,9 @@
                         </ul>
                          
                     </div>
+                    <div class="BtnContainer">
+                        <h2>How well do you know Leximinth?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -4387,8 +4453,8 @@
               </div>
             </div>
 
-            <div class="accordion-item sTier">
-              <h2 class="accordion-header revo" id="flush-headingfourtynine">
+            <div class="accordion-item sortt   sTier">Moomega
+              <h2 class="accordion-header revo " id="flush-headingfourtynine">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefourtynine" aria-expanded="false" aria-controls="flush-collapsefourtynine">
                   <h2>Moomega</h2>
                     <img src="/images/revomonImg/moomega.png" alt="" class="smImg">
@@ -4454,6 +4520,9 @@
                           
                     </div>
                     <!-- Group3 -->
+                    <div class="BtnContainer">
+                        <h2>How well do you know Moomega?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
+                    </div>
                     <div class="group3 ">
                         <ul class="text-center">
                             <h3>Tips and counters.</h3>
@@ -4468,8 +4537,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthy">
+            <div class="accordion-item sortt   bTier">Ghopher
+              <h2 class="accordion-header revo " id="flush-headingfifthy">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthy" aria-expanded="false" aria-controls="flush-collapsefifthy">
                   <h2>Ghopher</h2>
                     <img src="/images/revomonImg/ghopher.png" alt="" class="smImg">
@@ -4553,8 +4622,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthyone">
+            <div class="accordion-item sortt   cTier">Kangcross
+              <h2 class="accordion-header revo " id="flush-headingfifthyone">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthyone" aria-expanded="false" aria-controls="flush-collapsefifthyone">
                   <h2>Kangcross</h2>
                     <img src="/images/revomonImg/kangcross.png" alt="" class="smImg">
@@ -4637,8 +4706,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthytwo">
+            <div class="accordion-item sortt   dTier">Reingifir
+              <h2 class="accordion-header revo " id="flush-headingfifthytwo">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthytwo" aria-expanded="false" aria-controls="flush-collapsefifthytwo">
                  <h2>Reingifir</h2>
                     <img src="/images/revomonImg/reingifir.png" alt="" class="smImg">
@@ -4719,8 +4788,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthythree">
+            <div class="accordion-item sortt   cTier">Wyverdant
+              <h2 class="accordion-header revo " id="flush-headingfifthythree">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthythree" aria-expanded="false" aria-controls="flush-collapsefifthythree">
                   <h2>Wyverdant</h2>
                     <img src="/images/revomonImg/wyverdant.png" alt="" class="smImg">
@@ -4804,8 +4873,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthyfour">
+            <div class="accordion-item sortt   cTier">Azuroon
+              <h2 class="accordion-header revo " id="flush-headingfifthyfour">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthyfour" aria-expanded="false" aria-controls="flush-collapsefifthyfour">
                  <h2>Azuroon</h2>
                     <img src="/images/revomonImg/azuron.png" alt="" class="smImg">
@@ -4870,7 +4939,10 @@
                             <li>EVs: 252 Atk / 4 Def / 252 HP</li>
                             <li>Adamant Nature</li>
                         </ul>
-                          
+                    </div>
+
+                    <div class="BtnContainer">
+                        <h2>How well do you know Azuroon?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
                     </div>
                     <!-- Group3 -->
                     <div class="group3 ">
@@ -4887,8 +4959,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthyfive">
+            <div class="accordion-item sortt   cTier">Tetrapion
+              <h2 class="accordion-header revo " id="flush-headingfifthyfive">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthyfive" aria-expanded="false" aria-controls="flush-collapsefifthyfive">
                  <h2>Tetrapion</h2>
                     <img src="/images/revomonImg/tetrapion.png" alt="" class="smImg">
@@ -4969,8 +5041,8 @@
               </div>
             </div>
 
-            <div class="accordion-item dTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthysix">
+            <div class="accordion-item sortt   dTier">Kickundra
+              <h2 class="accordion-header revo " id="flush-headingfifthysix">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthysix" aria-expanded="false" aria-controls="flush-collapsefifthysix">
                   <h2>Kickundra</h2>
                     <img src="/images/revomonImg/kickundra.png" alt="" class="smImg">
@@ -5051,8 +5123,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthyseven">
+            <div class="accordion-item sortt   cTier">Eschargot
+              <h2 class="accordion-header revo " id="flush-headingfifthyseven">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthyseven" aria-expanded="false" aria-controls="flush-collapsefifthyseven">
                   <h2>Eschargot</h2>
                     <img src="/images/revomonImg/eschargot.png" alt="" class="smImg">
@@ -5132,8 +5204,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthyeight">
+            <div class="accordion-item sortt   cTier">Honikoba
+              <h2 class="accordion-header revo " id="flush-headingfifthyeight">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthyeight" aria-expanded="false" aria-controls="flush-collapsefifthyeight">
                  <h2>Honikoba</h2>
                     <img src="/images/revomonImg/honikoba.png" alt="" class="smImg">
@@ -5215,8 +5287,8 @@
               </div>
             </div>
 
-            <div class="accordion-item cTier">
-              <h2 class="accordion-header revo" id="flush-headingfifthynine">
+            <div class="accordion-item sortt   cTier">Bluezilla
+              <h2 class="accordion-header revo " id="flush-headingfifthynine">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefifthynine" aria-expanded="false" aria-controls="flush-collapsefifthynine">
                   <h2>Bluezilla</h2>
                     <img src="/images/revomonImg/bluezilla.png" alt="" class="smImg">
@@ -5300,8 +5372,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-              <h2 class="accordion-header revo" id="flush-headingsixty">
+            <div class="accordion-item sortt   bTier">Miraflect
+              <h2 class="accordion-header revo " id="flush-headingsixty">
                 <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesixty" aria-expanded="false" aria-controls="flush-collapsesixty">
                  <h2>Miraflect</h2>
                     <img src="/images/revomonImg/miraflect.png" alt="" class="smImg">
@@ -5386,8 +5458,8 @@
               </div>
             </div>
 
-            <div class="accordion-item bTier">
-                <h2 class="accordion-header revo" id="flush-headingsixtyone">
+            <div class="accordion-item sortt   bTier">Construckto
+                <h2 class="accordion-header revo " id="flush-headingsixtyone">
                   <button class=" accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsesixtyone" aria-expanded="false" aria-controls="flush-collapsesixtyone">
                     <h2>Construkto</h2>
                     <img src="/images/revomonImg/constructor.png" alt="" class="smImg">
@@ -5486,6 +5558,29 @@
     <!-- Footer -->
 
     <footer class="bg-dark text-center text-white">
+                  <!-- Section: Social media -->
+                  <div class="containerTickers">
+                    <div class="coin-price">
+                      <div class="log">
+                        <img src="images/Binance-Coin-BNB-icon.png" alt="bnb-Icon">
+                      </div>
+                      <div>
+                        <h6>$<span id="bnb"></span></h6>
+                      </div>
+                    </div>
+                    <div class="coin-price">
+                      <div class="log">
+                        <img src="images/revomon-icon.png" alt="revo-Icon">
+                      </div>
+                      <div>
+                        <h6>$<span id="revo"></span></h6>
+                      </div>
+                    </div>
+            
+                  </div>
+                  <h6>Price API from CoinGecko.com</h6>
+                  <hr>
+                </div>
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
@@ -5506,8 +5601,7 @@
             </a>
             
           </section>
-          <!-- Section: Social media -->
-        </div>
+
         <!-- Grid container -->
       
         <!-- Copyright -->
@@ -5518,6 +5612,7 @@
           <p>Images of the revomons are sourced from <a class="text-info" href="https://app-v2.revomon.io/revodex" target="_blank">Revomon.io</a></p>
         </div>
         <!-- Copyright -->
+        
       </footer>
 
 
@@ -5528,6 +5623,8 @@
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
+    <script src="./sort.js"></script>
+    <script src="./priceTickers.js"></script>
 </body>
 
 </html>

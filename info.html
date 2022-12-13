@@ -7,6 +7,7 @@
     <title>General Information</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="sass.css?v=1.1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body >
     <!-- Nav/Header -->
@@ -22,7 +23,6 @@
                 <a class="nav-link dropdown-toggle active text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 <h1 class="">Information</h1>
                 </a>
-
                 <ul class="dropdown-menu bg-info text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
                   <a href="#"><h4>Spawn Locations</h4></a>
                   <hr>
@@ -49,9 +49,15 @@
                     </li>
                     <hr>
                     <li class="nav-item">
+                      <a class="nav-link active text-center" aria-current="page" href="https://peels-cpu.github.io/react-projects/">Revo-Trivia</a>
+                    </li>
+
+                    <hr>
+                    <li class="nav-item">
                       <a class="nav-link  text-center " aria-current="page"  href="/Calculators.html">ValueLator</a>
                     </li>  
                     <hr>
+  
                     <!-- 
                     <li class="nav-item">
                         <a class="nav-link active text-center" aria-current="page" href="/RevomonTV.html">RevoTV</a>
@@ -86,8 +92,38 @@
       </nav>
   </header>
     <!-- Main body. -->
+    <hr>
+    <div class="Revoprice text-center container-fluid mt-5 mb-5">
+      <h2 class="mt-5 pt-4">Current price of Bnb and Revo in USD</h2>
+
+
+      <div class="containerTickers">
+        
+        <div class="coin-price">
+          <div class="log">
+            <img src="images/Binance-Coin-BNB-icon.png" alt="bnb-Icon">
+          </div>
+          <div>
+            <h6>$<span id="bnb"></span></h6>
+
+          </div>
+        </div>
+        <div class="coin-price">
+          <div class="log">
+            <img src="images/revomon-icon.png" alt="bnb-Icon">
+          </div>
+          <div>
+            <h6>$<span id="revo"></span></h6>
+
+          </div>
+        </div>
+
+      </div>
+      <h6>Price API from CoinGecko.com</h6>
+
+    </div>
     
-    <Main class="text-center container-fluid">
+    <Main class="text-center container-fluid mt-5">
       <h1>Sapp's Spawn list chart and pvp Training Guide</h1>
       <iframe class="container-fluid" width="560" height="315" src="https://www.youtube.com/embed/8G3NFKtGWuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -403,4 +439,5 @@
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="./script.js"></script>
+        <script src="./priceTickers.js"></script>
 </body>

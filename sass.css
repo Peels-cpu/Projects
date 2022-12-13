@@ -5,21 +5,16 @@
 .logo {
   height: auto;
   width: auto;
-  max-height: 70px;
+  max-height: 50px;
   max-width: 250px;
 }
 
 #links a {
-  color: #0efff3;
+  color: #ecfa24;
   font-size: 20px;
-  text-shadow: 3px 5px 5px #0e008b;
+  text-shadow: 3px 3px 3px #0e008b;
 }
 
-.navMiniMenu {
-  color: rgb(184, 109, 11);
-  border: solid white;
-  text-decoration: none;
-}
 
 .navbar-nav li {
   transition: transform 0.2s; /* Animation */
@@ -67,8 +62,31 @@ nav {
   background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(59, 4, 61), rgb(250, 206, 11), rgb(55, 1, 68), rgb(247, 213, 22), rgb(0, 0, 0));
   border: 0.2rem outset rgb(248, 248, 248);
   font-family: Arial bold, Helvetica, sans-serif;
-  border-radius: 10%;
+  
 }
+.BtnContainer {
+  font-weight: bold;
+  background-image: linear-gradient(120deg, rgb(0, 0, 0), rgb(41, 255, 255), rgb(22, 19, 7), rgb(0, 0, 0), rgb(247, 213, 22), rgb(0, 0, 0));
+  border: 0.2rem outset rgb(224, 224, 224);
+  font-family: Arial bold, Helvetica, sans-serif;
+  
+}
+
+.Btn{
+  color: white;
+  background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(1, 83, 104), rgb(28, 6, 155),rgb(0, 0, 0), rgb(33, 9, 168), rgb(13, 111, 136), rgb(0, 0, 0));
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 5px;
+  border: inset grey;
+  border-Radius: 10%;
+  color: rgb(196, 240, 0);
+  text-shadow: rgb(0, 0, 0) 2px 2px;
+}
+.Btn:hover{
+  border: rgb(219, 255, 16) inset ;
+  }
 
 .counterdexbtn {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -83,6 +101,17 @@ body {
   background-color: var(--accordianBody);
   color: var(--textcolor);
   list-style: none;
+  background-image: url("./images/valulatorRoom.jpg");
+  /* max-width: 1200px;
+  max-height: 100%; */
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center;
+  height: 100%;
+  width: auto;
+
+
 }
 body h2, body h3 {
   color: var(--namecolors);
@@ -100,7 +129,7 @@ body .locationImg {
   max-height: 200px;
 }
 body main {
-  margin-top: 6rem;
+  margin-top: 1rem;
   font-weight: bold;
   font-size: large;
 }
@@ -160,22 +189,6 @@ body .sakura {
   min-height: 100%;
   background-repeat:no-repeat;
 }
-.counterdexBG{
-  background-image: url(".//images/route1.jpg");
-  max-width: 1200px;
-  max-height: 100%;
-  background-repeat:no-repeat;
-
-
-}
-
-body .valulatorBG {
-  background-image: url("./images/valulatorRoom.jpg");
-  max-width: 100%;
-  max-height: 100%;
-  background-repeat: no-repeat;
-}
-
 
 body .searchbar {
   padding: 10px;
@@ -586,3 +599,20 @@ body .revomonNameCss {
     max-width: 80px;
   }
 }/*# sourceMappingURL=sass.css.map */
+/* Ticker containers */
+.containerTickers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  box-shadow: 0 0 30px rgb(215, 228, 30);
+  border-radius: 10px;
+  background-color: #000102;
+}
+.log img{
+  width: 50px;
+  height: 50px;
+}
+.coin-price{
+  margin: 20px;
+}

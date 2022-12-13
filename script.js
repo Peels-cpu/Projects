@@ -1,4 +1,6 @@
 
+
+
 // Tier filter buttons
 
 // 1, lable all revomons with tiers,
@@ -9,7 +11,10 @@ let cTier = document.querySelectorAll(".cTier");
 let dTier = document.querySelectorAll(".dTier");
 
 //  shown first when the website is opened.
+
+
 sTier.forEach(l => {
+
     l.style.display = "block";
 })
 // Make revomon tiers disapear

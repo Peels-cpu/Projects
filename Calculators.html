@@ -7,6 +7,7 @@
     <title>Calculators</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="sass.css?v=1.1">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <!-- Nav/Header -->
@@ -26,11 +27,17 @@
                     <li class="nav-item">
                         <a class="nav-link active text-center" aria-current="page" href="/index.html">CounterDex</a>
                     </li>
+                    <hr>
+                    <li class="nav-item">
+                      <a class="nav-link active text-center" aria-current="page" href="https://peels-cpu.github.io/react-projects/">Revo-Trivia</a>
+                    </li>
+                    <hr>
                       <!-- info -->
                       <li class="nav-item dropdown text-center">
                         <li class="nav-item">
                             <a class="nav-link active text-center" aria-current="page" href="/info.html">Information</a>
                         </li>
+                        <hr>
                         <ul class="dropdown-menu bg-info text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
                         <h4>Charts/Tables  </h4>
                             <!-- scrolls to the page of the tables/charts -->
@@ -71,8 +78,43 @@
     <!-- Main body. -->
     <Main class="text-center valuelator container-fluid ">
         <div class="wrapper text-center ">
-        <h2 class=" pb-5 mt-5">Sapp's Revomon Value Calculator</h2>
-            <p class="  mt-5"><h3>Only rares and legendary revomons are on this valuelator</h3> Common revomons are basicly worthless.</p>
+        <h2 class=" pt-5 ">Sapp's Revomon Value Calculator</h2>
+        <!-- Price tokens -->
+
+        <div class="Revoprice text-center container-fluid ">
+          <h5 >Current price of Bnb and Revo in USD</h5>
+          <hr>
+    
+          <div class="containerTickers">
+            
+            <div class="coin-price">
+              <div class="log">
+                <img src="images/Binance-Coin-BNB-icon.png" alt="bnb-Icon">
+              </div>
+              <div>
+                <h6>$<span id="bnb"></span></h6>
+    
+              </div>
+            </div>
+            <div class="coin-price">
+              <div class="log">
+                <img src="images/revomon-icon.png" alt="bnb-Icon">
+              </div>
+              <div>
+                <h6>$<span id="revo"></span></h6>
+    
+              </div>
+            </div>
+    
+          </div>
+          <h6>Price API from CoinGecko.com</h6>
+          <hr>
+        </div>
+
+
+
+
+            <p class=""><h3>Only rares and legendary revomons are on this valuelator</h3> Common revomons are basicly worthless.</p>
             <hr />
             <div aria-label="Pok&eacute;mon 1" class="panel valulatorBG" role="region">
                 <fieldset class="poke-info  container-fluid" id="p1">
@@ -265,6 +307,7 @@
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="./script.js"></script>
+        <script src="/priceTickers.js"></script>
 </body> 
     <!-- Footer -->
 
