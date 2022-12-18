@@ -1,0 +1,343 @@
+[ {
+		"Name": "Work Up",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	}, {
+		"Name": "Roar",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}, {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+ {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+ {
+		"Name": "Quick Attack",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "30"
+	},
+ {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Flame Wheel",
+		"Type": "Fire",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+ {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Defense Curl",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "40"
+	},
+ {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Brick Break",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+ {
+		"Name": "Flamethrower",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Fire Blast",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "85%",
+		"PP": "5"
+	},
+ {
+		"Name": "Rock Tomb",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "95%",
+		"PP": "15"
+	},
+ {
+		"Name": "Aerial Ace",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Flame Charge",
+		"Type": "Fire",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Overheat",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "130",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Focus Blast",
+		"Type": "Battle",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "70%",
+		"PP": "5"
+	},
+ {
+		"Name": "Fling",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Will O Wisp",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+ {
+		"Name": "Shadow Claw",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Double Edge",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Gyro Ball",
+		"Type": "Metal",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "5"
+	},
+ {
+		"Name": "Bulldoze",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Rock Slide",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "90%",
+		"PP": "10"
+	},
+ {
+		"Name": "Eruption",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "100%",
+		"PP": "5"
+	},
+ {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+ {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Wild Charge",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Nature Power",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Fire Pledge",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	}
+]

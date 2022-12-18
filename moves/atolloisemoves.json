@@ -1,0 +1,301 @@
+[
+ {
+		"Name": "Growl",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "40"
+	},
+ {
+		"Name": "Mega Drain",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "15"
+	},
+
+ {
+		"Name": "Astonish",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "30",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+ {
+		"Name": "Hail",
+		"Type": "Ice",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+ {
+		"Name": "Ice Beam",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Blizzard",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Brick Break",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thief",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Echoed Voice",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Focus Blast",
+		"Type": "Battle",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Energy Ball",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Scald",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Fling",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Swords Dance",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Grass Knot",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Nature Power",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Surf",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Waterfall",
+		"Type": "Water",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	}
+]

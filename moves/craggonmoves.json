@@ -1,0 +1,469 @@
+[
+ {
+		"Name": "Wing Attack",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Fire Punch",
+		"Type": "Fire",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Thunder Punch",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+
+ {
+		"Name": "Wrap",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "15",
+		"Acc": "90%",
+		"PP": "20"
+	},
+ {
+		"Name": "Leer",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "30"
+	},
+ {
+		"Name": "Thunder Wave",
+		"Type": "Electric",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "20"
+	},
+ {
+		"Name": "Twister",
+		"Type": "Draconic",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Roost",
+		"Type": "Sky",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hurricane",
+		"Type": "Sky",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Twister",
+		"Type": "Draconic",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Dragon Rage",
+		"Type": "Draconic",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Slam",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "75%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Agility",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Dragon Tail",
+		"Type": "Draconic",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Aqua Tail",
+		"Type": "Water",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dragon Rush",
+		"Type": "Draconic",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "75%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+	 {
+		"Name": "Dragon Dance",
+		"Type": "Draconic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Outrage",
+		"Type": "Draconic",
+		"Ps": "Physical",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hurricane",
+		"Type": "Sky",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dragon Claw",
+		"Type": "Draconic",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Roar",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hail",
+		"Type": "Ice",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Ice Beam",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Blizzard",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "5"
+	},
+
+	 {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Roost",
+		"Type": "Sky",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Thunderbolt",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thunder",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Brick Break",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Flamethrower",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sandstorm",
+		"Type": "Stone",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Fire Blast",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "85%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Rock Tomb",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "95%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Aerial Ace",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Steel Wing",
+		"Type": "Metal",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "90%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Focus Blast",
+		"Type": "Battle",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Fling",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Sky Drop",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Brutal Swing",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Stone Edge",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "80%",
+		"PP": "5"
+	}, {
+		"Name": "Waterfall",
+		"Type": "Water",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+    {
+        "Name": "Draco Meteor",
+        "Type": "Draconic",
+        "Ps": "Physical",
+        "Damage": "130",
+        "Acc": "90%",
+        "PP": "5"
+    }
+]

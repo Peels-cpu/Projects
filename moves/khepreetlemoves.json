@@ -1,0 +1,318 @@
+[ {
+		"Name": "Quiver Dance",
+		"Type": "Bug",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}, {
+		"Name": "Fiery Dance",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	}, {
+		"Name": "Calm Mind",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}, {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+ {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+ {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+ {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Roost",
+		"Type": "Sky",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+ {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Leech Life",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Psychic",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Fire Spin",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "35",
+		"Acc": "85%",
+		"PP": "15"
+	},
+ {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+ {
+		"Name": "Flamethrower",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Fire Blast",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "85%",
+		"PP": "5"
+	},
+ {
+		"Name": "Aerial Ace",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Flame Charge",
+		"Type": "Fire",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Overheat",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "130",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Heat Wave",
+		"Type": "Fire",
+		"Ps": "Special",
+		"Damage": "95",
+		"Acc": "90%",
+		"PP": "10"
+	},
+ {
+		"Name": "Will O Wisp",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+ {
+		"Name": "Acrobatics",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "55",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+ {
+		"Name": "Bug Buzz",
+		"Type": "Bug",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Fly",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "95%",
+		"PP": "15"
+	},
+ {
+		"Name": "Rage Powder",
+		"Type": "Bug",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Poison Jab",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+ {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "U Turn",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Wild Charge",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}
+]

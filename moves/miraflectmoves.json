@@ -1,0 +1,43 @@
+[
+	 {
+		"Name": "Counter",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Destiny Bond",
+		"Type": "Phantom",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+	 {
+		"Name": "Mirror Coat",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+    {
+		"Name": "Encore",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	}
+
+]

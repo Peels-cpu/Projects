@@ -1,0 +1,285 @@
+[
+ {
+		"Name": "Scary Face",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Double Hit",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "35",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Metal Sound",
+		"Type": "Metal",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "40"
+	},
+	 {
+		"Name": "Crush Claw",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "95%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Tri Attack",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "X Scissor",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Crunch",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Take Down",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "85%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Double Edge",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Parting Shot",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+    
+     {
+            "Name": "Iron Head",
+            "Type": "Metal",
+            "Ps": "Physical",
+            "Damage": "80",
+            "Acc": "100%",
+            "PP": "15"
+        },
+     {
+            "Name": "Dragon Claw",
+            "Type": "Draconic",
+            "Ps": "Physical",
+            "Damage": "80",
+            "Acc": "100%",
+            "PP": "15"
+        },
+         {
+            "Name": "Hyper Beam",
+            "Type": "Neutral",
+            "Ps": "Special",
+            "Damage": "150",
+            "Acc": "90%",
+            "PP": "5"
+        },
+         {
+            "Name": "Protect",
+            "Type": "Neutral",
+            "Ps": "Status",
+            "Damage": "—",
+            "Acc": "—",
+            "PP": "10"
+        },
+         {
+            "Name": "Thunderbolt",
+            "Type": "Electric",
+            "Ps": "Special",
+            "Damage": "90",
+            "Acc": "100%",
+            "PP": "15"
+        },
+         {
+            "Name": "Flamethrower",
+            "Type": "Fire",
+            "Ps": "Special",
+            "Damage": "90",
+            "Acc": "100%",
+            "PP": "15"
+        },
+         {
+            "Name": "Facade",
+            "Type": "Neutral",
+            "Ps": "Physical",
+            "Damage": "70",
+            "Acc": "100%",
+            "PP": "20"
+        },
+         {
+            "Name": "Rest",
+            "Type": "Time",
+            "Ps": "Status",
+            "Damage": "—",
+            "Acc": "—",
+            "PP": "10"
+        },
+         {
+            "Name": "Steel Wing",
+            "Type": "Metal",
+            "Ps": "Physical",
+            "Damage": "70",
+            "Acc": "90%",
+            "PP": "25"
+        },
+         {
+            "Name": "Shadow Claw",
+            "Type": "Phantom",
+            "Ps": "Physical",
+            "Damage": "70",
+            "Acc": "100%",
+            "PP": "15"
+        },
+         {
+            "Name": "Payback",
+            "Type": "Twilight",
+            "Ps": "Physical",
+            "Damage": "50",
+            "Acc": "100%",
+            "PP": "10"
+        },
+         {
+            "Name": "Giga Impact",
+            "Type": "Neutral",
+            "Ps": "Physical",
+            "Damage": "150",
+            "Acc": "90%",
+            "PP": "5"
+        },
+         {
+            "Name": "Thunder Wave",
+            "Type": "Electric",
+            "Ps": "Status",
+            "Damage": "—",
+            "Acc": "90%",
+            "PP": "20"
+        },
+         {
+            "Name": "Swords Dance",
+            "Type": "Neutral",
+            "Ps": "Status",
+            "Damage": "—",
+            "Acc": "—",
+            "PP": "20"
+        },
+         {
+            "Name": "Flash Cannon",
+            "Type": "Metal",
+            "Ps": "Special",
+            "Damage": "80",
+            "Acc": "100%",
+            "PP": "10"
+        },
+         {
+            "Name": "Explosion",
+            "Type": "Neutral",
+            "Ps": "Physical",
+            "Damage": "250",
+            "Acc": "100%",
+            "PP": "5"
+        },
+         {
+            "Name": "Thunder Fang",
+            "Type": "Electric",
+            "Ps": "Physical",
+            "Damage": "65",
+            "Acc": "95%",
+            "PP": "15"
+        },
+         {
+            "Name": "Ice Fang",
+            "Type": "Ice",
+            "Ps": "Physical",
+            "Damage": "65",
+            "Acc": "95%",
+            "PP": "15"
+        },
+         {
+            "Name": "Fire Fang",
+            "Type": "Fire",
+            "Ps": "Physical",
+            "Damage": "65",
+            "Acc": "95%",
+            "PP": "15"
+        },
+         {
+            "Name": "Poison Fang",
+            "Type": "Toxic",
+            "Ps": "Physical",
+            "Damage": "65",
+            "Acc": "95%",
+            "PP": "15"
+        },
+         {
+            "Name": "Imprison",
+            "Type": "Time",
+            "Ps": "Status",
+            "Damage": "—",
+            "Acc": "--",
+            "PP": "10"
+        },
+         {
+            "Name": "Tackle",
+            "Type": "Neutral",
+            "Ps": "Physical",
+            "Damage": "40",
+            "Acc": "100%",
+            "PP": "35"
+        },
+         {
+            "Name": "Bite",
+            "Type": "Twilight",
+            "Ps": "Physical",
+            "Damage": "40",
+            "Acc": "100%",
+            "PP": "35"
+        }
+        ,
+         {
+            "Name": "Metal Claw",
+            "Type": "Metal",
+            "Ps": "Physical",
+            "Damage": "50",
+            "Acc": "95%",
+            "PP": "35"
+        },
+         {
+            "Name": "Iron Defense",
+            "Type": "Metal",
+            "Ps": "Status",
+            "Damage": "__",
+            "Acc": "__",
+            "PP": "15"
+        }
+	
+    ]

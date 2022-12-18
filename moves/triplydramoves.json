@@ -1,0 +1,409 @@
+[
+ {
+		"Name": "Tackle",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Growl",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "40"
+	},
+
+
+ {
+		"Name": "Mud Shot",
+		"Type": "Earth",
+		"Ps": "Special",
+		"Damage": "55",
+		"Acc": "95%",
+		"PP": "15"
+	},
+
+ {
+		"Name": "Water Gun",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "25"
+	},
+ {
+		"Name": "Mud Slap",
+		"Type": "Earth",
+		"Ps": "Special",
+		"Damage": "20",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Foresight",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "40"
+	},
+	 {
+		"Name": "Bide",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Mud Bomb",
+		"Type": "Earth",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "85%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rock Slide",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "90%",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Muddy Water",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "85%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Take Down",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "85%",
+		"PP": "20"
+	},
+
+	 {
+		"Name": "Endeavor",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hammer Arm",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Work Up",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Roar",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hail",
+		"Type": "Ice",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Ice Beam",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Blizzard",
+		"Type": "Ice",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Brick Break",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sludge Wave",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "95",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rock Tomb",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "95%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Echoed Voice",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Focus Blast",
+		"Type": "Battle",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Scald",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Fling",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Stone Edge",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "80%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Bulldoze",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Surf",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Waterfall",
+		"Type": "Water",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Hydro Cannon",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Water Pledge",
+		"Type": "Water",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+    {
+		"Name": "Avalanache",
+		"Type": "Ice",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "10"
+	}
+]

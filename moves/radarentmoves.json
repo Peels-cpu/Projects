@@ -1,0 +1,245 @@
+[
+	
+
+	 {
+			"Name": "Toxic",
+			"Type": "Toxic",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "90%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Hidden Power",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Hyper Beam",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Light Screen",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "30"
+		},
+		 {
+			"Name": "Protect",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Rain Dance",
+			"Type": "Water",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "5"
+		},
+		 {
+			"Name": "Frustration",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Thunderbolt",
+			"Type": "Electric",
+			"Ps": "Special",
+			"Damage": "90",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Thunder",
+			"Type": "Electric",
+			"Ps": "Special",
+			"Damage": "110",
+			"Acc": "70%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Return",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Brick Break",
+			"Type": "Battle",
+			"Ps": "Physical",
+			"Damage": "75",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Double Team",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "15"
+		},
+		 {
+			"Name": "Facade",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Rest",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Attract",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Thief",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "25"
+		},
+		 {
+			"Name": "Round",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Echoed Voice",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "40",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Focus Blast",
+			"Type": "Battle",
+			"Ps": "Special",
+			"Damage": "120",
+			"Acc": "70%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Fling",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Charge Beam",
+			"Type": "Electric",
+			"Ps": "Special",
+			"Damage": "50",
+			"Acc": "90%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Giga Impact",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Volt Switch",
+			"Type": "Electric",
+			"Ps": "Special",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Thunder Wave",
+			"Type": "Electric",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "90%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Grass Knot",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Swagger",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "85%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Sleep Talk",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Substitute",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Wild Charge",
+			"Type": "Electric",
+			"Ps": "Physical",
+			"Damage": "90",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Confide",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		}
+	
+]

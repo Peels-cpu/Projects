@@ -1,0 +1,215 @@
+[
+ {
+		"Name": "X Scissor",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Psyshock",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Calm Mind",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Struggle Bug",
+		"Type": "Bug",
+		"Ps": "Special",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Slash",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Agility",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Psybeam",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+	 {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Bug Buzz",
+		"Type": "Bug",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Psychic",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Shadow Ball",
+		"Type": "Phantom",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Mirror Coat",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Psycho Cut",
+		"Type": "Time",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Energy Ball",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Payback",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "10"
+	}, {
+		"Name": "Future Sight",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+     {
+		"Name": "Confusion",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "-",
+		"Acc": "-",
+		"PP": "30"
+	}, {
+		"Name": "Reflect",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "-",
+		"Acc": "-",
+		"PP": "20"
+	},
+     {
+		"Name": "Snore",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "15"
+	}, {
+		"Name": "Imprison",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "-",
+		"Acc": "100%",
+		"PP": "15"
+	},
+     {
+		"Name": "Confuse ray",
+		"Type": "Phandtom",
+		"Ps": "Status",
+		"Damage": "100%",
+		"Acc": "100%",
+		"PP": "20"
+	}
+]

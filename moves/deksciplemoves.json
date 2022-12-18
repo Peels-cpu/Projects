@@ -1,0 +1,391 @@
+[
+
+ {
+		"Name": "Vine Whip",
+		"Type": "Forest",
+		"Ps": "Physical",
+		"Damage": "45",
+		"Acc": "100%",
+		"PP": "25"
+	},
+ {
+		"Name": "Tackle",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Growl",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "40"
+	},
+
+ {
+		"Name": "Petal Dance",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+
+ {
+		"Name": "Leech Seed",
+		"Type": "Forest",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Poison Powder",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "75%",
+		"PP": "35"
+	},
+	 {
+		"Name": "Sleep Powder",
+		"Type": "Forest",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "75%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Take Down",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "85%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Razor Leaf",
+		"Type": "Forest",
+		"Ps": "Physical",
+		"Damage": "55",
+		"Acc": "95%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Sweet Scent",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Growth",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Double Edge",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Worry Seed",
+		"Type": "Forest",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Synthesis",
+		"Type": "Forest",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Petal Blizzard",
+		"Type": "Forest",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+
+	 {
+		"Name": "Work Up",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Roar",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Venoshock",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sludge Bomb",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Echoed Voice",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Energy Ball",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Swords Dance",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Bulldoze",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Grass Knot",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Nature Power",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Frenzy Plant",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Grass Pledge",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	}
+]

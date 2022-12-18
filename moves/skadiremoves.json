@@ -1,0 +1,405 @@
+[
+	
+	 {
+			"Name": "Embargo",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "15"
+		},
+	 {
+			"Name": "Calm Mind",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+	 {
+			"Name": "Toxic",
+			"Type": "Toxic",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "90%",
+			"PP": "10"
+		},
+	 {
+			"Name": "Hail",
+			"Type": "Ice",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+	 {
+			"Name": "Quick Attack",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "40",
+			"Acc": "100%",
+			"PP": "30"
+		},
+		 {
+			"Name": "Hidden Power",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Sunny Day",
+			"Type": "Fire",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "5"
+		},
+		 {
+			"Name": "Taunt",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Ice Beam",
+			"Type": "Ice",
+			"Ps": "Special",
+			"Damage": "90",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Blizzard",
+			"Type": "Ice",
+			"Ps": "Special",
+			"Damage": "110",
+			"Acc": "70%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Hyper Beam",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Fury Swipes",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "18",
+			"Acc": "80%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Protect",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Rain Dance",
+			"Type": "Water",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "5"
+		},
+		 {
+			"Name": "Nasty Plot",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Frustration",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Metal Claw",
+			"Type": "Metal",
+			"Ps": "Physical",
+			"Damage": "50",
+			"Acc": "95%",
+			"PP": "35"
+		},
+		 {
+			"Name": "Hone Claws",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "15"
+		},
+		 {
+			"Name": "Return",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Fling",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Shadow Ball",
+			"Type": "Phantom",
+			"Ps": "Special",
+			"Damage": "80",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Brick Break",
+			"Type": "Battle",
+			"Ps": "Physical",
+			"Damage": "75",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Double Team",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "15"
+		},
+		 {
+			"Name": "Reflect",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Night Slash",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Aerial Ace",
+			"Type": "Sky",
+			"Ps": "Physical",
+			"Damage": "60",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Torment",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Facade",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Rest",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Attract",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Thief",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "25"
+		},
+		 {
+			"Name": "Low Sweep",
+			"Type": "Battle",
+			"Ps": "Physical",
+			"Damage": "65",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Round",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Focus Blast",
+			"Type": "Battle",
+			"Ps": "Special",
+			"Damage": "120",
+			"Acc": "70%",
+			"PP": "5"
+		},
+		 {
+			"Name": "False Swipe",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "40",
+			"Acc": "100%",
+			"PP": "40"
+		},
+	
+		 {
+			"Name": "Shadow Claw",
+			"Type": "Phantom",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Payback",
+			"Type": "Twilight",
+			"Ps": "Physical",
+			"Damage": "50",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Giga Impact",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Swords Dance",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Psych Up",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "X Scissor",
+			"Type": "Bug",
+			"Ps": "Physical",
+			"Damage": "80",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Poison Jab",
+			"Type": "Toxic",
+			"Ps": "Physical",
+			"Damage": "80",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Dream Eater",
+			"Type": "Time",
+			"Ps": "Special",
+			"Damage": "100",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Swagger",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "85%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Sleep Talk",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Substitute",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Snarl",
+			"Type": "Twilight",
+			"Ps": "Special",
+			"Damage": "55",
+			"Acc": "95%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Dark Pulse",
+			"Type": "Twilight",
+			"Ps": "Special",
+			"Damage": "80",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Confide",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Surf",
+			"Type": "Water",
+			"Ps": "Special",
+			"Damage": "90",
+			"Acc": "100%",
+			"PP": "15"
+		}
+	
+]

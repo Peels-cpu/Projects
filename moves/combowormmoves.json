@@ -1,0 +1,394 @@
+[
+
+ {
+		"Name": "Scratch",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Sand Attack",
+		"Type": "Earth",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+
+ {
+		"Name": "Defense Curl",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "40"
+	},
+ {
+		"Name": "Crush Claw",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "95%",
+		"PP": "10"
+	},
+
+ {
+		"Name": "Poison Sting",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "15",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Rollout",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "30",
+		"Acc": "90%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rapid Spin",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "40"
+	},
+	 {
+		"Name": "Fury Cutter",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "95%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Magnitude",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "30"
+	},
+	 {
+		"Name": "Swift",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Fury Swipes",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "18",
+		"Acc": "80%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sand Tomb",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "35",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Slash",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Dig",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Gyro Ball",
+		"Type": "Metal",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "5"
+	},
+
+
+	 {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Safeguard",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "25"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Brick Break",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sandstorm",
+		"Type": "Stone",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rock Tomb",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "95%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Aerial Ace",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thief",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Focus Blast",
+		"Type": "Battle",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "70%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Fling",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Shadow Claw",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Stone Edge",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "80%",
+		"PP": "5"
+	},
+
+	 {
+		"Name": "Swords Dance",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Bulldoze",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rock Slide",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "X Scissor",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Poison Jab",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}
+]

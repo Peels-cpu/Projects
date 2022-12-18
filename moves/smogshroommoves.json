@@ -1,0 +1,438 @@
+[
+ {
+		"Name": "Crunch",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Wrap",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "15",
+		"Acc": "90%",
+		"PP": "20"
+	},
+ {
+		"Name": "Poison Sting",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "15",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Leer",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "30"
+	},
+ {
+		"Name": "Bite",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+
+ {
+		"Name": "Thunder Fang",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "65",
+		"Acc": "95%",
+		"PP": "15"
+	},
+ {
+		"Name": "Ice Fang",
+		"Type": "Ice",
+		"Ps": "Physical",
+		"Damage": "65",
+		"Acc": "95%",
+		"PP": "15"
+	},
+ {
+		"Name": "Fire Fang",
+		"Type": "Fire",
+		"Ps": "Physical",
+		"Damage": "65",
+		"Acc": "95%",
+		"PP": "15"
+	},
+
+
+	 {
+		"Name": "Glare",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "30"
+	},
+	 {
+		"Name": "Screech",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "40"
+	},
+	 {
+		"Name": "Acid",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "30"
+	},
+	 {
+		"Name": "Stockpile",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Spit Up",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Swallow",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Acid Spray",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Mud Bomb",
+		"Type": "Earth",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "85%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Gastro Acid",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Belch",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Haze",
+		"Type": "Ice",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Coil",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Gunk Shot",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "120",
+		"Acc": "80%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Venoshock",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Earthquake",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sludge Wave",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "95",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Sludge Bomb",
+		"Type": "Toxic",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rock Tomb",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "95%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Torment",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thief",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Brutal Swing",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Payback",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Bulldoze",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rock Slide",
+		"Type": "Stone",
+		"Ps": "Physical",
+		"Damage": "75",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dragon Tail",
+		"Type": "Draconic",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Infestation",
+		"Type": "Bug",
+		"Ps": "Special",
+		"Damage": "20",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Poison Jab",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dark Pulse",
+		"Type": "Twilight",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	} 
+	
+]

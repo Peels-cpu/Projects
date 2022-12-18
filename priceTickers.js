@@ -24,3 +24,9 @@ $.ajax(liveprice).done(function (response){
     revo.innerHTML = response.revomon.usd;
 
 });
+
+  
+
+
+
+

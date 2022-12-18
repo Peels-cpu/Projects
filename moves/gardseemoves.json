@@ -1,0 +1,333 @@
+[
+	
+	 {
+			"Name": "Synthesis",
+			"Type": "Forest",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "5"
+		},
+	 {
+			"Name": "Toxic",
+			"Type": "Toxic",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "90%",
+			"PP": "10"
+		},
+	 {
+			"Name": "Tackle",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "40",
+			"Acc": "100%",
+			"PP": "35"
+		},
+		 {
+			"Name": "Hidden Power",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Sunny Day",
+			"Type": "Fire",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "5"
+		},
+		 {
+			"Name": "Poison Powder",
+			"Type": "Toxic",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "75%",
+			"PP": "35"
+		},
+		 {
+			"Name": "Stun Spore",
+			"Type": "Forest",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "75%",
+			"PP": "30"
+		},
+		 {
+			"Name": "Hyper Beam",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Sleep Powder",
+			"Type": "Forest",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "75%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Protect",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Bullet Seed",
+			"Type": "Forest",
+			"Ps": "Physical",
+			"Damage": "25",
+			"Acc": "100%",
+			"PP": "30"
+		},
+		 {
+			"Name": "Frustration",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Solar Beam",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "120",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Leech Seed",
+			"Type": "Forest",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "90%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Return",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Mega Drain",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "40",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Double Team",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "15"
+		},
+		 {
+			"Name": "Reflect",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Acrobatics",
+			"Type": "Sky",
+			"Ps": "Physical",
+			"Damage": "55",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Rage Powder",
+			"Type": "Bug",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Aerial Ace",
+			"Type": "Sky",
+			"Ps": "Physical",
+			"Damage": "60",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Facade",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Rest",
+			"Type": "Time",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Attract",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Round",
+			"Type": "Neutral",
+			"Ps": "Special",
+			"Damage": "60",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Energy Ball",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "90",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Worry Seed",
+			"Type": "Forest",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Giga Drain",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "75",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Acrobatics",
+			"Type": "Sky",
+			"Ps": "Physical",
+			"Damage": "55",
+			"Acc": "100%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Bounce",
+			"Type": "Sky",
+			"Ps": "Physical",
+			"Damage": "85",
+			"Acc": "85%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Giga Impact",
+			"Type": "Neutral",
+			"Ps": "Physical",
+			"Damage": "150",
+			"Acc": "90%",
+			"PP": "5"
+		},
+		 {
+			"Name": "Memento",
+			"Type": "Twilight",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Swords Dance",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		},
+		 {
+			"Name": "Infestation",
+			"Type": "Bug",
+			"Ps": "Special",
+			"Damage": "20",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Grass Knot",
+			"Type": "Forest",
+			"Ps": "Special",
+			"Damage": "—",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Swagger",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "85%",
+			"PP": "15"
+		},
+		 {
+			"Name": "Sleep Talk",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "U Turn",
+			"Type": "Bug",
+			"Ps": "Physical",
+			"Damage": "70",
+			"Acc": "100%",
+			"PP": "20"
+		},
+		 {
+			"Name": "Substitute",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "10"
+		},
+		 {
+			"Name": "Dazzling Gleam",
+			"Type": "Spirit",
+			"Ps": "Special",
+			"Damage": "80",
+			"Acc": "100%",
+			"PP": "10"
+		},
+		 {
+			"Name": "Confide",
+			"Type": "Neutral",
+			"Ps": "Status",
+			"Damage": "—",
+			"Acc": "—",
+			"PP": "20"
+		}
+
+	
+]

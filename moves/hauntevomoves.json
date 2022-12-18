@@ -1,0 +1,393 @@
+[
+
+ {
+		"Name": "Minimize",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+ {
+		"Name": "Constrict",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "10",
+		"Acc": "100%",
+		"PP": "35"
+	},
+
+
+ {
+		"Name": "Astonish",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "30",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Gust",
+		"Type": "Sky",
+		"Ps": "Special",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "35"
+	},
+ {
+		"Name": "Focus Energy",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+
+	 {
+		"Name": "Ominous Wind",
+		"Type": "Phantom",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Stockpile",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Hex",
+		"Type": "Phantom",
+		"Ps": "Special",
+		"Damage": "65",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Spit Up",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Swallow",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+
+	 {
+		"Name": "Amnesia",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Baton Pass",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "40"
+	},
+
+	 {
+		"Name": "Phantom Force",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Calm Mind",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "6000%",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sunny Day",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Thunderbolt",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thunder",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Psychic",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Shadow Ball",
+		"Type": "Phantom",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thief",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Charge Beam",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "50",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Will O Wisp",
+		"Type": "Fire",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Acrobatics",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "55",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Embargo",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Explosion",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "250",
+		"Acc": "100%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Payback",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "50",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Thunder Wave",
+		"Type": "Electric",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Gyro Ball",
+		"Type": "Metal",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "5"
+	},
+
+	 {
+		"Name": "Psych Up",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dream Eater",
+		"Type": "Time",
+		"Ps": "Special",
+		"Damage": "100",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Fly",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "95%",
+		"PP": "15"
+	}
+]

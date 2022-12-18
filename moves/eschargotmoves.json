@@ -1,0 +1,368 @@
+[
+
+ {
+		"Name": "Vice Grip",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "55",
+		"Acc": "100%",
+		"PP": "30"
+	},
+
+
+
+
+ {
+		"Name": "Charge",
+		"Type": "Electric",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Air Slash",
+		"Type": "Sky",
+		"Ps": "Special",
+		"Damage": "75",
+		"Acc": "95%",
+		"PP": "15"
+	},
+ {
+		"Name": "String Shot",
+		"Type": "Bug",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "95%",
+		"PP": "40"
+	},
+	 {
+		"Name": "Mud Slap",
+		"Type": "Earth",
+		"Ps": "Special",
+		"Damage": "20",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Bite",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+	 {
+		"Name": "Bug Bite",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Spark",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "65",
+		"Acc": "100%",
+		"PP": "20"
+	},
+
+	 {
+		"Name": "Guillotine",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "30%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Bug Buzz",
+		"Type": "Bug",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Dig",
+		"Type": "Earth",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Zap Cannon",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "50%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Agility",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Toxic",
+		"Type": "Toxic",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Hidden Power",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Hyper Beam",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "15000%",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Protect",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Rain Dance",
+		"Type": "Water",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "5"
+	},
+	 {
+		"Name": "Roost",
+		"Type": "Sky",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Frustration",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Solar Beam",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "120",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Thunderbolt",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thunder",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "110",
+		"Acc": "70%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Return",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Double Team",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "15"
+	},
+	 {
+		"Name": "Facade",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Rest",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Round",
+		"Type": "Neutral",
+		"Ps": "Special",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Energy Ball",
+		"Type": "Forest",
+		"Ps": "Special",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Charge Beam",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "50",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Sky Drop",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Acrobatics",
+		"Type": "Sky",
+		"Ps": "Physical",
+		"Damage": "55",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Giga Impact",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "150",
+		"Acc": "90%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Volt Switch",
+		"Type": "Electric",
+		"Ps": "Special",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Thunder Wave",
+		"Type": "Electric",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "20"
+	},
+	 {
+		"Name": "X Scissor",
+		"Type": "Bug",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Poison Jab",
+		"Type": "Toxic",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sleep Talk",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Substitute",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "10"
+	},
+	 {
+		"Name": "Flash Cannon",
+		"Type": "Metal",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Wild Charge",
+		"Type": "Electric",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	}
+]

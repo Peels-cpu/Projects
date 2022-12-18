@@ -1,0 +1,171 @@
+[
+ {
+		"Name": "Fake Out",
+		"Type": "Neutral",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "10"
+	},
+ {
+		"Name": "Confide",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+
+ {
+		"Name": "Flatter",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Bulk Up",
+		"Type": "Battle",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+ {
+		"Name": "Power Up Punch",
+		"Type": "Battle",
+		"Ps": "Physical",
+		"Damage": "40",
+		"Acc": "100%",
+		"PP": "20"
+	},
+ {
+		"Name": "Bite",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "25"
+	},
+ {
+		"Name": "Attract",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "15"
+	},
+ {
+		"Name": "Assurance",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "60",
+		"Acc": "100%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Swagger",
+		"Type": "Neutral",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "85%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Sucker Punch",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "5"
+	},
+	 {
+		"Name": "Dark Pulse",
+		"Type": "Twilight",
+		"Ps": "Special",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Nasty Plot",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Play Rough",
+		"Type": "Spirit",
+		"Ps": "Physical",
+		"Damage": "90",
+		"Acc": "90%",
+		"PP": "10"
+	},
+	 {
+		"Name": "Foul Play",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "95",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Crunch",
+		"Type": "Twilight",
+		"Ps": "Physical",
+		"Damage": "80",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Taunt",
+		"Type": "Twilight",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "100%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Light Screen",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "30"
+	},
+	 {
+		"Name": "Reflect",
+		"Type": "Time",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "—",
+		"PP": "20"
+	},
+	 {
+		"Name": "Shadow Claw",
+		"Type": "Phantom",
+		"Ps": "Physical",
+		"Damage": "70",
+		"Acc": "100%",
+		"PP": "15"
+	},
+	 {
+		"Name": "Thunder Wave",
+		"Type": "Electric",
+		"Ps": "Status",
+		"Damage": "—",
+		"Acc": "90%",
+		"PP": "20"
+	},
+	 {
+		"Name": "Dazzling Gleam",
+		"Type": "Spirit",
+		"Ps": "Special",
+		"Damage": "8000%",
+		"Acc": "100%",
+		"PP": "10"
+	}
+]
