@@ -1,0 +1,322 @@
+[
+    {
+           "Name": "Mega Drain",
+           "Type": "Forest",
+           "Ps": "Special",
+           "Damage": "40",
+           "Acc": "100%",
+           "PP": "15"
+       },
+    {
+           "Name": "Leech Seed",
+           "Type": "Forest",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "90%",
+           "PP": "10"
+       },
+    {
+           "Name": "Growth",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "20"
+       },
+    {
+           "Name": "Cotton Spore",
+           "Type": "Forest",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "40"
+       },
+    {
+           "Name": "Gust",
+           "Type": "Sky",
+           "Ps": "Special",
+           "Damage": "40",
+           "Acc": "100%",
+           "PP": "35"
+       },
+    {
+           "Name": "Tailwind",
+           "Type": "Sky",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "15"
+       },
+    {
+           "Name": "Hurricane",
+           "Type": "Sky",
+           "Ps": "Special",
+           "Damage": "110",
+           "Acc": "70%",
+           "PP": "10"
+       },
+    {
+           "Name": "Moonblast",
+           "Type": "Spirit",
+           "Ps": "Special",
+           "Damage": "95",
+           "Acc": "100%",
+           "PP": "15"
+       },
+    {
+           "Name": "Toxic",
+           "Type": "Toxic",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "90%",
+           "PP": "10"
+       },
+        {
+           "Name": "Hidden Power",
+           "Type": "Neutral",
+           "Ps": "Special",
+           "Damage": "60",
+           "Acc": "100%",
+           "PP": "15"
+       },
+        {
+           "Name": "Sunny Day",
+           "Type": "Fire",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "5"
+       },
+        {
+           "Name": "Taunt",
+           "Type": "Twilight",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Hyper Beam",
+           "Type": "Neutral",
+           "Ps": "Special",
+           "Damage": "150",
+           "Acc": "90%",
+           "PP": "5"
+       },
+        {
+           "Name": "Light Screen",
+           "Type": "Time",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "30"
+       },
+        {
+           "Name": "Protect",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "10"
+       },
+        {
+           "Name": "Safeguard",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "25"
+       },
+        {
+           "Name": "Frustration",
+           "Type": "Neutral",
+           "Ps": "Physical",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Solar Beam",
+           "Type": "Forest",
+           "Ps": "Special",
+           "Damage": "120",
+           "Acc": "100%",
+           "PP": "10"
+       },
+        {
+           "Name": "Return",
+           "Type": "Neutral",
+           "Ps": "Physical",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Psychic",
+           "Type": "Time",
+           "Ps": "Special",
+           "Damage": "90",
+           "Acc": "100%",
+           "PP": "10"
+       },
+        {
+           "Name": "Shadow Ball",
+           "Type": "Phantom",
+           "Ps": "Special",
+           "Damage": "80",
+           "Acc": "100%",
+           "PP": "15"
+       },
+        {
+           "Name": "Double Team",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "15"
+       },
+        {
+           "Name": "Facade",
+           "Type": "Neutral",
+           "Ps": "Physical",
+           "Damage": "70",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Rest",
+           "Type": "Time",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "10"
+       },
+        {
+           "Name": "Attract",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "15"
+       },
+        {
+           "Name": "Thief",
+           "Type": "Twilight",
+           "Ps": "Physical",
+           "Damage": "60",
+           "Acc": "100%",
+           "PP": "25"
+       },
+        {
+           "Name": "Round",
+           "Type": "Neutral",
+           "Ps": "Special",
+           "Damage": "60",
+           "Acc": "100%",
+           "PP": "15"
+       },
+        {
+           "Name": "Energy Ball",
+           "Type": "Forest",
+           "Ps": "Special",
+           "Damage": "90",
+           "Acc": "100%",
+           "PP": "10"
+       },
+        {
+           "Name": "Fling",
+           "Type": "Twilight",
+           "Ps": "Physical",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "10"
+       },
+        {
+           "Name": "Giga Impact",
+           "Type": "Neutral",
+           "Ps": "Physical",
+           "Damage": "150",
+           "Acc": "90%",
+           "PP": "5"
+       },
+        {
+           "Name": "Dream Eater",
+           "Type": "Time",
+           "Ps": "Special",
+           "Damage": "100",
+           "Acc": "100%",
+           "PP": "15"
+       },
+        {
+           "Name": "Grass Knot",
+           "Type": "Forest",
+           "Ps": "Special",
+           "Damage": "—",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Swagger",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "85%",
+           "PP": "15"
+       },
+        {
+           "Name": "Sleep Talk",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "10"
+       },
+        {
+           "Name": "U Turn",
+           "Type": "Bug",
+           "Ps": "Physical",
+           "Damage": "70",
+           "Acc": "100%",
+           "PP": "20"
+       },
+        {
+           "Name": "Substitute",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "10"
+       },
+        {
+           "Name": "Trick Room",
+           "Type": "Time",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "5"
+       },
+        {
+           "Name": "Nature Power",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "20"
+       },
+        {
+           "Name": "Dazzling Gleam",
+           "Type": "Spirit",
+           "Ps": "Special",
+           "Damage": "80",
+           "Acc": "100%",
+           "PP": "10"
+       },
+        {
+           "Name": "Confide",
+           "Type": "Neutral",
+           "Ps": "Status",
+           "Damage": "—",
+           "Acc": "—",
+           "PP": "20"
+       }
+   ]

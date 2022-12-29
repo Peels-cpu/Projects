@@ -1,3 +1,21 @@
+fetch('/moves/holleadermoves.json').then((data)=>{
+    return data.json(); //converted to object
+}).then((objectData)=>{
+    let tableData = '';
+    objectData.map((values)=>{
+        tableData += `<tr>
+        <td>${values.Name}</td>
+        <td>${values.Damage}</td>
+        <td>${values.Type}</td>
+        <td>${values.Acc}</td>
+        <td>${values.PP}</td>
+        <td>${values.Ps}</td>
+        </tr>
+        `;
+    })
+    document.querySelector('#holleaderMoves').innerHTML=tableData
+});
+
 fetch('/moves/construcktomoves.json').then((data)=>{
     return data.json(); //converted to object
 }).then((objectData)=>{
