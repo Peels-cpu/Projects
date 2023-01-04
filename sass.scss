@@ -561,6 +561,21 @@ list-style: none;
   border-radius: 10%;
   color: white;
 }
+// Scroll on animations-----------------------------------------------------
+.accordion-item{
+ opacity:0;
+ filter: blur(5px);
+ transition: all 1.3s;
+ transform: translateX(100%);
+ 
+
+
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
 
 
 
@@ -677,7 +692,7 @@ table{
 table th{
   font-size: 20px;
 	padding: 5px 0;
-	background-color: #13777a;
+	background-color: #053031;
 	/* background-color: #fff; */
 	border:  thin solid #d4d4d4;
 }
@@ -688,7 +703,7 @@ table td{
 	border:  thin solid #d4d4d4;
 	width: 18%;
 	text-align: center;
-  color: Black;
-	background-color: rgb(208, 178, 226);
+  color: rgb(241, 241, 241);
+	background-color: rgb(30, 146, 88);
 }
 
