@@ -48,7 +48,7 @@ h3 {
 
 :root{
   --accordianBody: rgb(0, 0, 0);
-  --textcolor:white;
+  --textcolor:rgb(252, 252, 252);
   --namecolors: rgb(255, 222, 35);
   
 }
@@ -66,7 +66,7 @@ h3 {
 
 nav{
   font-weight: bold;
-  background-image: linear-gradient(45deg, rgb(0, 0, 0),rgb(59, 4, 61), rgb(160, 135, 26), rgb(55, 1, 68), rgb(247, 213, 22), rgb(0, 0, 0));
+  background-image: linear-gradient(45deg, rgb(0, 0, 0),rgb(20, 106, 177), rgb(0, 0, 0), rgb(55, 1, 68), rgb(136, 37, 7), rgb(0, 0, 0));
   border: .2rem outset rgb(248, 248, 248);
   font-family:Arial bold, Helvetica, sans-serif;
 
@@ -92,8 +92,12 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #000102;
   color: var(--textcolor);
   list-style: none;
+  // p{
+  //   filter: brightness(1.75);
+  // }
   h2, h3{
     color: var(--namecolors);
     font-weight: bold;
@@ -114,7 +118,13 @@ body{
     margin-top: 6rem;
     font-weight: bold;
     font-size: large;
+
   }
+  footer{
+    background-color: #000102;
+  }
+
+  
 .yakati{
   background-image: url("./images/yakati1.jpg");
   max-width: 100%;
@@ -174,14 +184,6 @@ body{
 }
 
 
-
-// Calcultor CSS
-.valulatorBG{
-  background-image: url("./images/valulatorRoom.jpg");
-  max-width: 100%;
-  max-height: 100%;
-  background-repeat:no-repeat;
-}
 
 .searchbar {
   padding: 10px;
@@ -566,15 +568,18 @@ list-style: none;
  opacity:0;
  filter: blur(5px);
  transition: all 1.3s;
- transform: translateX(100%);
- 
-
+ transform: translateX(-100%);
 
 }
 .show{
   opacity: 1;
   filter: blur(0);
   transform: translateX(0);
+}
+@media(prefers-reduced-motion) {
+  .accordion-item {
+    transition: none;
+  }
 }
 
 
