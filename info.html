@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>General Information</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="sass.css?v=1.9">
+    <link rel="stylesheet" href="sass.css?v=2.1">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body >
+        <!-- Loading icon -->
+        <button  class="btn btn-dark loading" type="button" disabled  style="display:none;">
+          <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
+          Loading The Information page my Trainer.
+        </button>
     <!-- Nav/Header -->
     <header>
  <nav class="navbar fixed-top navbar-expand-lg  "> 
@@ -45,7 +50,7 @@
               
                 <ul class="navbar-nav" id="links">
                     <li class="nav-item marginTop">
-                      <a class="nav-link active text-center" aria-current="page" href='/index.html'>CounterDex</a>
+                      <a class="nav-link active text-center" aria-current="page" href='/'>CounterDex</a>
                     </li>
                     <hr>
                     <li class="nav-item">
@@ -57,31 +62,12 @@
                       <a class="nav-link  text-center " aria-current="page"  href="/Calculators.html">ValueLator</a>
                     </li>  
                     <hr>
-  
-                    <!-- 
-                    <li class="nav-item">
-                        <a class="nav-link active text-center" aria-current="page" href="/RevomonTV.html">RevoTV</a>
-                      </li>
-                      <hr>
-                      -->
-
-                    <!-- Clans/organizations -->
-                    <li class="nav-item dropdown text-center">
-                        <a class="nav-link dropdown-toggle active text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Clans/Groups
-                        </a>
-                        <ul class="dropdown-menu bg-secondary text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
-                        <h2>Clans</h2>
-                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/939520368673165312/939520368673165315">Revo league Discord</a></h5>
-                        <h3>Groups</h3>
-                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/670597253764874270/822022281948823552">Revomon Offical Discord</a></h5>
-                        <h5><a class="dropdown-item" target="_blank" href="https://globalrevomon.com/">Global Revo-Association</a></h5>
-                        <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/979946785818681355/982743464372482149">House of clans</a></h5>
-                        <h5><a class="dropdown-item" target="_blank" href="http://revodex.epizy.com/">Moongate's Revomon Resources</a></h5>
-                        <h3>Tournaments and Details</h3>
-                        <h5><a class="dropdown-item" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeURNNRXDJPMX6J8hqad71aKgTNyct283C_RYShfEMClimktw/viewform">Monthly Tournaments</a></h5>
-                        </ul>
+                    <!-- RevoTV -->
+                    <!-- <li class="nav-item">
+                      <a class="nav-link  text-center " aria-current="page"  href="/DamageCalculator.html">Damage Calculator</a>
                     </li>
+                    <hr> -->
+
                     
 
                     
@@ -449,9 +435,11 @@
           <th scope="row">Kanda</th>
           <th>Restore 10 PP to a revomons move.</th>
         </tr>
+        <!-- Footer -->
+        
       </tbody>
-      
 
+      
 
 
     </Main>
@@ -462,3 +450,4 @@
         <script src="./pokemoncounterparts.js"></script>
         <script src="./sort.js"></script>
 </body>
+

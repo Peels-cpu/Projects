@@ -7,13 +7,18 @@
     <title>Counter Dex</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="sass.css?v=1.9">
+    <link rel="stylesheet" href="sass.css?v=2.1">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
 </head>
-<body>
-    
+<body >
+    <button  class="btn btn-dark loading" type="button" disabled  style="display:none;">
+        <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
+        Fetching your PvP Cheat sheets my Trainer
+      </button>
+
+
     
     
     <!-- Nav/Header -->
@@ -42,30 +47,10 @@
                             <a class="nav-link  text-center " aria-current="page"  href="/Calculators.html">ValueLator</a>
                           </li>
                           <hr>
-                          
-
-                           
-                            
-                        <!-- Clans/organizations -->
-                        <li class="nav-item dropdown text-center">
-                            <a class="nav-link dropdown-toggle active text-center" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Clans/Groups
-                            </a>
-                            <ul class="dropdown-menu bg-success text-center navMiniMenu" aria-labelledby="navbarDropdownMenuLink">
-                            <h2>Clans</h2>
-                            <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/939520368673165312/939520368673165315">Revo league Discord</a></h5>
-                            <h3>Groups</h3>
-                            <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/670597253764874270/822022281948823552">Revomon Offical Discord</a></h5>
-                            <h5><a class="dropdown-item" target="_blank" href="https://globalrevomon.com/">Global Revo-Association</a></h5>
-                            <h5><a class="dropdown-item" target="_blank" href="https://discord.com/channels/979946785818681355/982743464372482149">House of clans</a></h5>
-                            <h5><a class="dropdown-item" target="_blank" href="http://revodex.epizy.com/">Moongate's Revomon Resources</a></h5>
-                            <h3>Tournaments and Details</h3>
-                            <h5><a class="dropdown-item" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeURNNRXDJPMX6J8hqad71aKgTNyct283C_RYShfEMClimktw/viewform">Monthly Tournaments</a></h5>
-                            </ul>
-                        </li>
-                        
-
-
+                          <!-- RevoTV -->
+                          <!-- <li class="nav-item disabled">
+                            <a class="nav-link disabled text-center"  role="link" aria-disabled="true" href="/DamageCalculator.html">Damage Calculator</a>
+                          </li> -->
                     </ul>
                 </div>
             </div>
@@ -390,7 +375,7 @@
                     </div>
 
                     <div class="">
-                        <h2>The Revomon.Online Complete Dex </h2>(Full movesets, evolutions and more) about opawan <li><a href="https://revomon.online/revodex/revomon/holleader/" target="_blank"><button class="revomonOnlineBtn">Here</button></a></li> 
+                        <h2>The Revomon.Online Complete Dex </h2>(Full movesets, evolutions and more) about holleader <li><a href="https://revomon.online/revodex/revomon/holleader/" target="_blank"><button class="revomonOnlineBtn">Here</button></a></li> 
                     </div>
                     <!--Possible Moves/Group2  -->
                     <div class="group2 buildsImg">
@@ -839,7 +824,7 @@
                         <ul class="text-center">
                             <h3>Tips and counters.</h3>
                             <li><button class="forestbtn"><a href="https://www.smogon.com/dex/xy/types/grass/" target="_blank">Forest</a></button> types are the worst when it comes to defense. As the type with the most weakness 5-types, it's  quite easy to beat a gardsee aslong as it has not put you to sleep.</li>
-                            <li>If sunnyday is out, and gardsee has Chlorophyll as an ability, gardsee becomes the fastest revomon. Be mindful when the environment is in gardsee's favour.</li>
+                            <li>If sunnyday is out, and gardsee has Chlorophyll as an ability, gardsee's speed is doubled. Be mindful when the environment is in gardsee's favour.</li>
                             <li>When you see gardsee is on the field, just always watch out for status moves. Other <button class="forestbtn"><a href="https://www.smogon.com/dex/xy/types/grass/" target="_blank">Forest</a></button> types are immune to sleep powder and stun spore. Atolloise  comes into mind, and a good ice beam should defeat gardsee with ease.</li>
                             <li>Gardsee was a limited Time revomon, and is no longer obtainable to catch in the open world, it is only available from hatching eggs, with this in mind, the odds of facing a gardsee will be quite rare, the gardsee they posess will also have horrible natures and stats.</li>
 
@@ -2026,7 +2011,7 @@
                       </div>
   
                       <div class="">
-                          <h2>The Revomon.Online Complete Dex </h2>(Full movesets, evolutions and more) about opawan <li><a href="https://revomon.online/revodex-revomon-murdoll/" target="_blank"><button class="revomonOnlineBtn">Here</button></a></li> 
+                          <h2>The Revomon.Online Complete Dex </h2>(Full movesets, evolutions and more) about murdoll <li><a href="https://revomon.online/revodex-revomon-murdoll/" target="_blank"><button class="revomonOnlineBtn">Here</button></a></li> 
                       </div>
                       <!--Possible Moves/Group2  -->
                       <div class="group2 buildsImg">
@@ -6557,15 +6542,22 @@
         <div class="container p-4 pb-0 bg-dark ">
           <!-- Section: Social media -->
           <section class="mb-4">
-            <p>Make a revomon account at <a class="text-info" href="https://app-v2.revomon.io/revodex" target="_blank">Revomon.io</a> and start catching rare and powerful revomon to dominate the other contenders, sign up for the monthly tournaments and win up to 100$ usd, completely free to sign up. </p>
-            <p>Have you made your revomon account? Join the Revomon discord to connect, trade and hangout with other revomon players!             <a class="btn btn-outline-light btn-floating m-1" href="https://discord.com/channels/670597253764874270/822022281948823552" target="_blank" role="button"
-                ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
-                  <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
-                </svg>
-                </a></p>
-
-
-
+      
+            <!-- Discord -->
+            <p>Make a revomon account here at <a class="text-info" href="https://app-v2.revomon.io/revodex" target="_blank">Revomon.io</a> and start catching rare and powerful revomon to dominate the other contenders, sign up for the monthly tournaments and win up to 100$ usd, completely free to sign up. </p>
+            <p>Have you made your revomon account? Join the Revomon discord here =    <a class="btn btn-outline-light btn-floating m-1" href="https://discord.com/channels/670597253764874270/822022281948823552" target="_blank" role="button"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+              </svg>
+              </a> to connect, trade and hangout with other revomon players!          </p>
+      
+            <!-- Github -->
+            <p>Are you a fellow dev? heres my code for the counterdex, hit me up and let's work together!</p>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Peels-cpu/Projects.git" target="_blank" role="button"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
             
           </section>
 
@@ -6576,12 +6568,6 @@
           © 2022 Copyright:
           <!-- When your portfolio is made, link it to your name -->
           <a class="text-info" href="https://peels-cpu.github.io/Portfolio/#/" target="_blank">By Peels</a>
-                      <!-- Github -->
-                      <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Peels-cpu/Projects.git" target="_blank" role="button"
-                      ><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                      </svg>
-                    </a>
           <p>Images of the revomons are sourced from <a class="text-info" href="https://app-v2.revomon.io/revodex" target="_blank">Revomon.io</a></p>
         </div>
         <!-- Copyright -->

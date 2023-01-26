@@ -1,6 +1,9 @@
+// loading icon js
+document.querySelector(".loading").style.display = "block";
 
-
-
+window.onload = function() {
+    document.querySelector(".loading").style.display = "none";
+};
 // Tier filter buttons
 
 // 1, lable all revomons with tiers,
@@ -141,8 +144,10 @@ function dTierbtn(){
         l.style.display = "none";
     })
 }
+
     // Index Search of the revomons
     function search_revo() {
+        
         let input = document.getElementById('searchrevo').value
         input=input.toLowerCase();
         let x = document.getElementsByClassName('revo');
@@ -172,9 +177,10 @@ function dTierbtn(){
               x[i].style.display="none";                   
             }
         }
+
     }
 
-
+ 
 
 // Calculators Data----------------------------------------------------------------
     let polluvern = {

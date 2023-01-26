@@ -79,6 +79,16 @@ nav {
   text-shadow: 3px 1px 1px #201f1f;
 }
 
+.loading {
+  font-weight: 1000;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 30%;
+  position: fixed;
+  z-index: 9999;
+}
+
 body {
   background-image: url(./images/background.jpg);
   background-position: center center;
@@ -525,7 +535,7 @@ body .revomonNameCss {
 .accordion-item {
   opacity: 0;
   filter: blur(5px);
-  transition: all 1.3s;
+  transition: all 1s;
   transform: translateX(-100%);
 }
 
