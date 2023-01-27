@@ -7,7 +7,7 @@
     <title>Counter Dex</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="sass.css?v=2.1">
+    <link rel="stylesheet" href="sass.css?v=2.2">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
@@ -61,7 +61,29 @@
 
     <main class=" text-center counterdexBG container-fluid ">
         <h2 class="text-center">Welcome to the Counter Dex!</h2>
-
+                    <!-- Price ticker -->
+                    <div class="containerTickers">
+                        <div class="coin-price">
+                          <div class="log">
+                            <img src="images/Binance-Coin-BNB-icon.png" alt="bnb-Icon">
+                          </div>
+                          <div>
+                            <h6>$<span id="bnb"></span></h6>
+                          </div>
+                        </div>
+                        <div class="coin-price">
+                          <div class="log">
+                            <img src="images/revomon-icon.png" alt="revo-Icon">
+                          </div>
+                          <div>
+                            <h6>$<span id="revo"></span></h6>
+                          </div>
+                        </div>
+                
+                      </div>
+                      <h6>Price API from CoinGecko.com</h6>
+                      <hr>
+                    </div>
 
 
 
@@ -69,7 +91,11 @@
             <div class="bg-dark ">
                 <img src="./images/tier list.png" id="tier-list" class="d-block w-10 typeTable container-fluid  " alt="" style="max-width:900px;">
                 <h6>Current Meta Tier List based on Usefulness in any team composition and battle prowess</h6>
+
+            
+            
             </div>
+
             
             <div class="text-center tierSearch container  mb-3"><h1>Search By Tier:</h1>
                 <button onclick="showAll()" id="showAll" class="showAllbtn mx-1">All</button>
@@ -78,8 +104,10 @@
                 <button onclick="bTierbtn()" id="b-tierSearch" class="b-tierMon mx-1">B-Tier</button>
                 <button onclick="cTierbtn()" id="c-tierSearch" class="c-tierMon mx-1">C-Tier</button>
                 <button onclick="dTierbtn()" id="d-tierSearch" class="d-tierMon mx-1">D-Tier</button>
-                <h4>or</h4>
-                <button onclick="sortList()" class="showAllbtn mx-1">Sort By Alphabetical Order</button>
+                <hr>
+                <button onclick="sortList()" id="refresh-button" class="showAllbtn mx-1">Top Speed</button>
+                <button onclick="sortList()" class="showAllbtn mx-1">Alphabetical</button>
+
 
                 <div aria-label="Pok&eacute;mon 1" class="panel mt-3" role="region">
                     <fieldset class="poke-info  container-fluid" id="p1">
@@ -500,9 +528,7 @@
 
                     </div>
                     <!-- Video -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe width="560" height="315" class="container-fluid" src="https://www.youtube.com/embed/FuDa_rJ7OX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
+                   
                     <div class="BtnContainer">
                         <h2>How well do you know Opawan?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
                     </div>
@@ -1630,9 +1656,7 @@
                          
                     </div>
                     <!-- video -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe width="560" class="container-fluid" height="315" src="https://www.youtube.com/embed/whHB35bTOQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
+                   
                     <!-- Group3 -->
                     <div class="group3 ">
                         <ul class="text-center">
@@ -2034,11 +2058,7 @@
                           
   
                       </div>
-                      <!-- Video -->
-                                            <!-- Video -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe class="container-fluid" width="560" height="315" src="https://www.youtube.com/embed/iZLUvpnYASA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
+
                     <div class="BtnContainer">
                         <h2>How well do you know Murdoll?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
                     </div>
@@ -3384,10 +3404,7 @@
                         </ul>
                            
                     </div>
-                    <!-- Videos -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe muted ="muted" width="560" class="container-fluid" height="315" src="https://www.youtube.com/embed/7N6gS9wZkDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
+                   
                     <!-- Group3 -->
                     <div class="BtnContainer">
                         <h2>How well do you know Craggon?</h2> Try the Trivia Quiz to know your knowledge level. <li><a href="https://peels-cpu.github.io/react-projects/" target="_blank"><button class="Btn">Lets go!</button></a></li> 
@@ -3492,10 +3509,7 @@
                            
                     </div>
                     <!-- Video -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe width="560" height="315" class="container-fluid" src="https://www.youtube.com/embed/Y09gVHLztU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
-                    <!-- Group3 -->
+
                     <div class="group3 ">
                         <ul class="text-center">
                             <h3>Tips and counters.</h3>
@@ -3698,11 +3712,7 @@
                         </ul>
                           
                     </div>
-                    <!-- video -->
-                    <h2>Video by Gill from the House of Clans</h2>
-                    <iframe width="560" class="container-fluid" height="315" src="https://www.youtube.com/embed/DhavR8Ef3Ig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h3 class="m-5">Check out more helpful videos by gill here <a href="https://www.youtube.com/channel/UCCGuq4ogro7EDNUI0jZu9sw" target="_blank">Gills Youtube Channel</a></h3>
-                    <!-- Group3 -->
+
                     <div class="group3 ">
                         <ul class="text-center">
                             <h3>Tips and counters.</h3>
@@ -6516,28 +6526,7 @@
 
     <footer class="bg-dark text-center text-white">
                   <!-- Section: Social media -->
-                  <div class="containerTickers">
-                    <div class="coin-price">
-                      <div class="log">
-                        <img src="images/Binance-Coin-BNB-icon.png" alt="bnb-Icon">
-                      </div>
-                      <div>
-                        <h6>$<span id="bnb"></span></h6>
-                      </div>
-                    </div>
-                    <div class="coin-price">
-                      <div class="log">
-                        <img src="images/revomon-icon.png" alt="revo-Icon">
-                      </div>
-                      <div>
-                        <h6>$<span id="revo"></span></h6>
-                      </div>
-                    </div>
-            
-                  </div>
-                  <h6>Price API from CoinGecko.com</h6>
-                  <hr>
-                </div>
+
         <!-- Grid container -->
         <div class="container p-4 pb-0 bg-dark ">
           <!-- Section: Social media -->
