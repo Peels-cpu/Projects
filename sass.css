@@ -79,14 +79,31 @@ nav {
   text-shadow: 3px 1px 1px #201f1f;
 }
 
-.loading {
-  font-weight: 1000;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 30%;
+.loading-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 1;
+  background-color: #000000;
   z-index: 9999;
+  opacity: 0.9;
+}
+
+.loading-bar {
+  width: 0%;
+  height: 20px;
+  background-color: #000000;
+  transition: width 0.5s;
+}
+
+.loading-text {
+  font-size: 15px;
+  color: #ebbb1d;
 }
 
 body {
@@ -429,6 +446,10 @@ body .revomonNameCss {
   color: var(--textcolor);
   background-color: var(--accordianBody);
   list-style: none;
+}
+
+.calculateBtn:hover {
+  background-color: green;
 }
 
 .showAllbtn {

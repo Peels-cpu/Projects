@@ -1,9 +1,4 @@
-// loading icon js
-document.querySelector(".loading").style.display = "block";
 
-window.onload = function() {
-    document.querySelector(".loading").style.display = "none";
-};
 // Tier filter buttons
 
 // 1, lable all revomons with tiers,
