@@ -1,15 +1,4 @@
-// var loadingPage = document.querySelector(".loading-page");
-// var loadingBar = document.querySelector(".loading-bar");
 
-// function updateLoadingBar(percentage) {
-//   loadingBar.style.width = percentage + "%";
-// }
-
-// window.addEventListener("load", function() {
-//   setTimeout(function() {
-//     loadingPage.style.display = "none";
-//   }, 7000);
-// });
 
 var quotes = [
   "Did you know: Only one out of Two Shiny legendaires that have been spawned are caught?.",

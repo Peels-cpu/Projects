@@ -92,6 +92,7 @@ nav {
   background-color: #0f0f0f;
   z-index: 9999;
   opacity: 0.9;
+  color: #ebbb1d;
 }
 
 .loading-bar {
@@ -99,11 +100,6 @@ nav {
   height: 20px;
   background-color: #000000;
   transition: width 0.5s;
-}
-
-.loading-text {
-  font-size: 15px;
-  color: #ebbb1d;
 }
 
 body {
